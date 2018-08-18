@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: paper.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: mybib.bib
+Warning--entry type for "RN4" isn't style-file defined
+--line 29 of file mybib.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in RN1
+Warning--No journal in RN12
+You've used 19 entries,
+            6951 wiz_defined-function locations,
+            1391 strings with 14186 characters,
+and the built_in function-call counts, 42683 in all, are:
+= -- 5528
+> -- 422
+< -- 1942
++ -- 2063
+- -- 36
+* -- 2561
+:= -- 7328
+add.period$ -- 96
+call.type$ -- 19
+change.case$ -- 308
+chr.to.int$ -- 0
+cite$ -- 40
+duplicate$ -- 1115
+empty$ -- 1541
+format.name$ -- 635
+if$ -- 8272
+int.to.chr$ -- 0
+int.to.str$ -- 57
+missing$ -- 0
+newline$ -- 493
+num.names$ -- 144
+pop$ -- 920
+preamble$ -- 1
+purify$ -- 75
+quote$ -- 0
+skip$ -- 2816
+stack$ -- 0
+substring$ -- 2374
+swap$ -- 651
+text.length$ -- 102
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 2256
+warning$ -- 2
+while$ -- 230
+width$ -- 0
+write$ -- 655
+(There were 3 warnings)

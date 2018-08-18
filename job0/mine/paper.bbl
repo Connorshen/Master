@@ -1,0 +1,544 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Chien%
+, Lin%
+\BCBL {}\ \BBA {} Chen%
+}{%
+Chien%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+RN9}
+\APACinsertmetastar {%
+RN9}%
+\begin{APACrefauthors}%
+Chien, Y\BPBI L.%
+, Lin, C\BPBI J.%
+\BCBL {}\ \BBA {} Chen, M\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine learning based rate adaptation with elastic
+  feature selection for HTTP-based streaming} {Machine learning based rate
+  adaptation with elastic feature selection for http-based streaming}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {IEEE International Conference on Multimedia and Expo}
+  {Ieee international conference on multimedia and expo}\ (\BPG~1-6).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Claeys%
+\ \protect \BOthers {.}}{%
+Claeys%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+RN4}
+\APACinsertmetastar {%
+RN4}%
+\begin{APACrefauthors}%
+Claeys, M.%
+, Latré, S.%
+, Famaey, J.%
+, Wu, T.%
+, Van~Leekwijck, W.%
+\BCBL {}\ \BBA {} De~Turck, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{05}{}.
+\newblock
+\APACrefbtitle {Design of a Q-Learning based client quality selection algorithm
+  for HTTP Adaptive Video Streaming.} {Design of a q-learning based client
+  quality selection algorithm for http adaptive video streaming.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gadaleta%
+, Chiariotti%
+, Rossi%
+\BCBL {}\ \BBA {} Zanella%
+}{%
+Gadaleta%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+RN14}
+\APACinsertmetastar {%
+RN14}%
+\begin{APACrefauthors}%
+Gadaleta, M.%
+, Chiariotti, F.%
+, Rossi, M.%
+\BCBL {}\ \BBA {} Zanella, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {D-DASH: a Deep Q-learning Framework for DASH Video
+  Streaming} {D-dash: a deep q-learning framework for dash video
+  streaming}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Cognitive Communications $\&$
+  Networking}{PP}{99}{1-1}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hore%
+\ \BBA {} Ziou%
+}{%
+Hore%
+\ \BBA {} Ziou%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+RN15}
+\APACinsertmetastar {%
+RN15}%
+\begin{APACrefauthors}%
+Hore, A.%
+\BCBT {}\ \BBA {} Ziou, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Image Quality Metrics: PSNR vs. SSIM} {Image quality
+  metrics: Psnr vs. ssim}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on Pattern Recognition}
+  {International conference on pattern recognition}\ (\BPG~2366-2369).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Index%
+}{%
+Index%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+RN1}
+\APACinsertmetastar {%
+RN1}%
+\begin{APACrefauthors}%
+Index, V\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cisco Visual Networking Index: Global Mobile Data
+  Traffic Forecast Update, 2016–2021 White Paper} {Cisco visual networking
+  index: Global mobile data traffic forecast update, 2016–2021 white
+  paper}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kaelbling%
+, Littman%
+\BCBL {}\ \BBA {} Moore%
+}{%
+Kaelbling%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1996}}%
+}]{%
+RN13}
+\APACinsertmetastar {%
+RN13}%
+\begin{APACrefauthors}%
+Kaelbling, L\BPBI P.%
+, Littman, M\BPBI L.%
+\BCBL {}\ \BBA {} Moore, A\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reinforcement Learning: A Survey} {Reinforcement
+  learning: A survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J Artificial Intelligence Research}{4}{1}{237--285}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
+\ \protect \BOthers {.}}{%
+Li%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+RN5}
+\APACinsertmetastar {%
+RN5}%
+\begin{APACrefauthors}%
+Li, Z.%
+, Zhu, X.%
+, Gahm, J.%
+, Pan, R.%
+, Hu, H.%
+, Begen, A\BPBI C.%
+\BCBL {}\ \BBA {} Oran, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Probe and Adapt: Rate Adaptation for HTTP Video
+  Streaming At Scale} {Probe and adapt: Rate adaptation for http video
+  streaming at scale}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journal on Selected Areas in
+  Communications}{32}{4}{719-733}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marinca%
+, Barth%
+\BCBL {}\ \BBA {} Vleeschauwer%
+}{%
+Marinca%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+RN10}
+\APACinsertmetastar {%
+RN10}%
+\begin{APACrefauthors}%
+Marinca, D.%
+, Barth, D.%
+\BCBL {}\ \BBA {} Vleeschauwer, D\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Q-Learning solution for adaptive video streaming} {A
+  q-learning solution for adaptive video streaming}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on Selected Topics in Mobile
+  and Wireless NETWORKING} {International conference on selected topics in
+  mobile and wireless networking}\ (\BPG~120-126).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mok%
+, Luo%
+, Chan%
+\BCBL {}\ \BBA {} Chang%
+}{%
+Mok%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+RN6}
+\APACinsertmetastar {%
+RN6}%
+\begin{APACrefauthors}%
+Mok, R\BPBI K\BPBI P.%
+, Luo, X.%
+, Chan, E\BPBI W\BPBI W.%
+\BCBL {}\ \BBA {} Chang, R\BPBI K\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {QDASH:a QoE-aware DASH system} {Qdash:a qoe-aware dash
+  system}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Multimedia Systems Conference} {Multimedia systems
+  conference}\ (\BPG~11-22).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pasqualini%
+, Fioretti%
+, Andreoli%
+\BCBL {}\ \BBA {} Pierleoni%
+}{%
+Pasqualini%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+RN17}
+\APACinsertmetastar {%
+RN17}%
+\begin{APACrefauthors}%
+Pasqualini, S.%
+, Fioretti, F.%
+, Andreoli, A.%
+\BCBL {}\ \BBA {} Pierleoni, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparison of H.264/AVC, H.264 with AIF, and AVS based
+  on different video quality metrics} {Comparison of h.264/avc, h.264 with aif,
+  and avs based on different video quality metrics}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on Telecommunications}
+  {International conference on telecommunications}\ (\BPG~190-195).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sodagar%
+}{%
+Sodagar%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+RN2}
+\APACinsertmetastar {%
+RN2}%
+\begin{APACrefauthors}%
+Sodagar, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The MPEG-DASH Standard for Multimedia Streaming Over the
+  Internet} {The mpeg-dash standard for multimedia streaming over the
+  internet}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Multimedia}{18}{4}{62-67}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tokic%
+\ \BBA {} Palm%
+}{%
+Tokic%
+\ \BBA {} Palm%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+RN18}
+\APACinsertmetastar {%
+RN18}%
+\begin{APACrefauthors}%
+Tokic, M.%
+\BCBT {}\ \BBA {} Palm, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Value-Difference Based Exploration: Adaptive Control
+  between Epsilon-Greedy and Softmax.} {Value-difference based exploration:
+  Adaptive control between epsilon-greedy and softmax.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Ki 2011: Advances in Artificial Intelligence, German
+  Conference on Ai, Berlin, Germany, October 4-7,2011. Proceedings} {Ki 2011:
+  Advances in artificial intelligence, german conference on ai, berlin,
+  germany, october 4-7,2011. proceedings}\ (\BPG~335-346).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wallendael%
+, Leuven%
+, Cock%
+\BCBL {}\ \BBA {} Lambert%
+}{%
+Wallendael%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+RN16}
+\APACinsertmetastar {%
+RN16}%
+\begin{APACrefauthors}%
+Wallendael, G\BPBI V.%
+, Leuven, S\BPBI V.%
+, Cock, J\BPBI D.%
+\BCBL {}\ \BBA {} Lambert, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Evaluation of full-reference objective video quality
+  metrics on high efficiency video coding} {Evaluation of full-reference
+  objective video quality metrics on high efficiency video coding}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Ifip/ieee International Symposium on Integrated Network
+  Management} {Ifip/ieee international symposium on integrated network
+  management}\ (\BPG~1294-1299).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Xiph.org Video Test Media}}{%
+\APACcitebtitle {Xiph.org Video Test Media}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+RN20}
+\APACinsertmetastar {%
+RN20}%
+\APACrefbtitle {Xiph.org Video Test Media.} {Xiph.org video test media.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APAChowpublished {\url{https://media.xiph.org/video/derf/}}.
+\newblock
+\APACrefnote{Accessed February 15, 2018}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xu%
+, Zhou%
+\BCBL {}\ \BBA {} Chiu%
+}{%
+Xu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+RN3}
+\APACinsertmetastar {%
+RN3}%
+\begin{APACrefauthors}%
+Xu, Y.%
+, Zhou, Y.%
+\BCBL {}\ \BBA {} Chiu, D\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Analytical QoE Models for Bit-Rate Switching in Dynamic
+  Adaptive Streaming Systems} {Analytical qoe models for bit-rate switching in
+  dynamic adaptive streaming systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Mobile
+  Computing}{13}{12}{2734-2748}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zanforlin%
+, Munaretto%
+, Zanella%
+\BCBL {}\ \BBA {} Zorzi%
+}{%
+Zanforlin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+RN19}
+\APACinsertmetastar {%
+RN19}%
+\begin{APACrefauthors}%
+Zanforlin, M.%
+, Munaretto, D.%
+, Zanella, A.%
+\BCBL {}\ \BBA {} Zorzi, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SSIM-based video admission control and resource
+  allocation algorithms} {Ssim-based video admission control and resource
+  allocation algorithms}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Symposium on Modeling and Optimization in
+  Mobile, Ad Hoc, and Wireless Networks} {International symposium on modeling
+  and optimization in mobile, ad hoc, and wireless networks}\ (\BPG~656-661).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+, Zheng%
+, Hua%
+, Huang%
+\BCBL {}\ \BBA {} Yang%
+}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+RN12}
+\APACinsertmetastar {%
+RN12}%
+\begin{APACrefauthors}%
+Zhang, Z.%
+, Zheng, Y.%
+, Hua, M.%
+, Huang, Y.%
+\BCBL {}\ \BBA {} Yang, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cache-Enabled Dynamic Rate Allocation via Deep
+  Self-Transfer Reinforcement Learning} {Cache-enabled dynamic rate allocation
+  via deep self-transfer reinforcement learning}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhu%
+, Lany%
+\BCBL {}\ \BBA {} Schaarz%
+}{%
+Zhu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+RN11}
+\APACinsertmetastar {%
+RN11}%
+\begin{APACrefauthors}%
+Zhu, X.%
+, Lany, C.%
+\BCBL {}\ \BBA {} Schaarz, M\BPBI V\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Low-complexity reinforcement learning for
+  delay-sensitive compression in networked video stream mining} {Low-complexity
+  reinforcement learning for delay-sensitive compression in networked video
+  stream mining}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {IEEE International Conference on Multimedia and Expo}
+  {Ieee international conference on multimedia and expo}\ (\BPG~1-6).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zink%
+, Schmitt%
+\BCBL {}\ \BBA {} Steinmetz%
+}{%
+Zink%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+RN7}
+\APACinsertmetastar {%
+RN7}%
+\begin{APACrefauthors}%
+Zink, M.%
+, Schmitt, J.%
+\BCBL {}\ \BBA {} Steinmetz, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Subjective impression of variations in layer encoded
+  videos} {Subjective impression of variations in layer encoded videos}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on Quality of Service}
+  {International conference on quality of service}\ (\BPG~137-154).
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
