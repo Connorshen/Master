@@ -1,0 +1,132 @@
+\documentclass[twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{ctex}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{ifpdf,amsmath,amsthm,amssymb,amsfonts,newtxtext,newtxmath} 
+\usepackage{array,graphicx,dcolumn,multirow,hevea,abstract,hanging}
+\usepackage[labelfont=sc,textfont=sf]{caption}
+\usepackage[hyperfootnotes=false,breaklinks=true]{hyperref} % was dvipdfmx
+\urlstyle{rm}
+%\usepackage[hyphenbreaks]{breakurl}
+\usepackage{apacite} % must come afer hyperfootnotes
+\setlength{\bibleftmargin}{1em}
+\setlength{\bibindent}{-1em}
+\usepackage{booktabs} % \toprule \midrule \bottomrule \cmidrule(lr){a-b}
+
+%%%% Added by Zhenbo Cheng
+\usepackage{subcaption}
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+% define centered and ragged columns:
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash }p{#1}} % can use m{}
+\newcolumntype{C}[1]{>{\centering\arraybackslash }p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash }p{#1}}
+\newcolumntype{d}[1]{D{.}{.}{#1}} % d{3.2} for 3 places on l, 2 on r
+\newcommand{\mc}{\multicolumn}
+\topmargin=-.3in \oddsidemargin=-.1in \evensidemargin=-.1in \textheight=9in \textwidth=6.8in
+\setlength\tabcolsep{1mm}
+\setlength\columnsep{5mm}
+\setlength\abovecaptionskip{.5ex}
+\setlength\belowcaptionskip{.5ex}
+\setlength\belowbottomsep{.3ex}
+\setlength\lightrulewidth{.04em}
+\renewcommand\arraystretch{1.2}
+\renewcommand{\topfraction}{1}
+\renewcommand{\textfraction}{0}
+\renewcommand{\floatpagefraction}{.9}
+% \renewcommand{\baselinestretch}{1.00} \large\normalsize % for fixing spaces
+\widowpenalty=1000
+\clubpenalty=1000
+\setlength{\parskip}{0ex}
+\let\tempone\itemize
+\let\temptwo\enditemize
+\let\tempthree\enumerate
+\let\tempfour\endenumerate
+\renewenvironment{itemize}{\tempone\setlength{\itemsep}{0pt}}{\temptwo}
+\renewenvironment{enumerate}{\tempthree\setlength{\itemsep}{0pt}}{\tempfour}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{page}{1} % start with first page
+
+\title{Water Quality Modeling and Prediction Method Based on Sparse Recurrent Neural Network}
+
+\author{
+Zhenbo Cheng
+}
+
+% who is corresponding author?
+
+\date{} % leave empty
+\begin{document} % goes here
+
+% fill in short title
+\newcommand{\jref}{http://journal.sjdm.org/vol13.2.html}
+\newcommand{\jhead}{Judgment and Decision Making, Vol.~13, No.~2}
+\newcommand{\jdate}{March 2018}
+\pagestyle{myheadings} \markright{\protect\small \href{\jref}{\jhead}, \jdate \hfill Strategies of matcching and maxmizing \qquad}
+\begin{htmlonly}
+\href{\jref}{\jhead}, \jdate, pp.\
+\end{htmlonly}
+%\begin{latexonly}
+\twocolumn[
+\vspace{-.3in}
+{\small \href{\jref}{\jhead}, \jdate, pp.\ XX--XX}
+%\end{latexonly}
+
+\maketitle
+
+%\begin{latexonly}
+\vspace{-3mm}
+\begin{onecolabstract}
+%\end{latexonly}
+It is an important prerequisite for scientific management and maintenance of water 
+resources to accurately predict all kinds of indicators that affect water quality. 
+This paper proposed a method of forecasting water quality index and rank based on sparse 
+recurrent neural network (SRNN). Based on the principle of minimum mean square 
+recursive error, the training algorithm of the network was designed. The neural
+ network was used to construct a water quality prediction model. 
+ The experimental results showed that the model can be used to predict the 
+ trend of water quality in ZheJiang province.
+\smallskip
+
+\noindent
+Keywords: water quality modeling,water quality prediction,sparse recurrent neural network,learning algorithm
+%\begin{latexonly}
+\end{onecolabstract}\bigskip
+]
+%\end{latexonly}
+
+{\renewcommand{\thefootnote}{}
+\footnotetext{ % note blank lines above and below acknowledgment
+
+  This work is supported by Public Projects of Zhejiang Province
+  (2016C31G2020069) and the 3rd Level in Zhejiang Province “151
+  talents project” to Zhenbo Cheng. We thank Liwen Bianji, Edanz Group
+  China (www.liwenbianji.cn/ac), for editing the English text of a
+  draft of this manuscript. The authors declare no competing financial
+  or nonfinancial interests.
+
+Copyright: \copyright\ 2018.
+The authors license this article under the terms of the
+\href{http://creativecommons.org/licenses/by/3.0/}{Creative Commons
+  Attribution 3.0 License.}
+}}
+
+\saythanks
+
+\setlength{\baselineskip}{12pt plus.2pt}
+
+\section{Introduction}
+abc\cite{RN1}
+
+\bibliographystyle{apacite}
+\bibliography{mybib.bib}
+
+
+
+\bigskip
+
+
+\end{document}
+

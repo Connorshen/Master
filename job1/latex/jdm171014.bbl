@@ -1,0 +1,29 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+???%
+, ??%
+\BCBL {}\ \BBA {} ???%
+}{%
+???%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+RN1}
+\APACinsertmetastar {%
+RN1}%
+\begin{APACrefauthors}%
+???%
+, ??%
+\BCBL {}\ \BBA {} ???%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {?????????} {?????????}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{???????}{}{2}{1-6}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
