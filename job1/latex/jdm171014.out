@@ -1,2 +1,12 @@
-\BOOKMARK [1][-]{section.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{}% 1
-\BOOKMARK [1][-]{section*.1}{\376\377\000R\000e\000f\000e\000r\000e\000n\000c\000e\000s}{}% 2
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Water\040quality\040model}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{SRNN\040network\040structure}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{SRNN\040learning\040algorithm}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Experimental\040result}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Water\040quality\040data\040preparation}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Water\040quality\040parameter\040prediction}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Water\040quality\040level\040prediction}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Model\040comparison}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Discussion}{}% 10
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 11
+\BOOKMARK [1][-]{section*.9}{References}{}% 12

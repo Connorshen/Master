@@ -1,11 +1,442 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-???%
-, ??%
-\BCBL {}\ \BBA {} ???%
+Bayram%
+, Uzlu%
+, Kankal%
+\BCBL {}\ \BBA {} Dede%
 }{%
-???%
+Bayram%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+RN7}
+\APACinsertmetastar {%
+RN7}%
+\begin{APACrefauthors}%
+Bayram, A.%
+, Uzlu, E.%
+, Kankal, M.%
+\BCBL {}\ \BBA {} Dede, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Modeling stream dissolved oxygen concentration using
+  teaching–learning based optimization algorithm} {Modeling stream dissolved
+  oxygen concentration using teaching–learning based optimization
+  algorithm}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Environmental Earth Sciences}{73}{10}{6565-6576}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bei%
+, Lin%
+\BCBL {}\ \BBA {} Zhihong%
+}{%
+Bei%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+RN4}
+\APACinsertmetastar {%
+RN4}%
+\begin{APACrefauthors}%
+Bei, J.%
+, Lin, Q.%
+\BCBL {}\ \BBA {} Zhihong, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Review of Water Quality Prediction Method} {Review of
+  water quality prediction method}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Agriculture and Technology}{36}{23}{68-69}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Changming%
+}{%
+Changming%
+}{%
+{\protect \APACyear {1993}}%
+}]{%
+RN6}
+\APACinsertmetastar {%
+RN6}%
+\begin{APACrefauthors}%
+Changming, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Progress of Studies on Water Environmental Mathematic
+  Models} {Progress of studies on water environmental mathematic
+  models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Chinese Journal of Environmental
+  Engineering}{}{1}{74-81}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cheng%
+, Deng%
+, Hu%
+, Zhang%
+\BCBL {}\ \BBA {} Yang%
+}{%
+Cheng%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+RN21}
+\APACinsertmetastar {%
+RN21}%
+\begin{APACrefauthors}%
+Cheng, Z.%
+, Deng, Z.%
+, Hu, X.%
+, Zhang, B.%
+\BCBL {}\ \BBA {} Yang, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Efficient reinforcement learning of a reservoir network
+  model of parametric working memory achieved with a cluster population
+  winner-take-all readout mechanism} {Efficient reinforcement learning of a
+  reservoir network model of parametric working memory achieved with a cluster
+  population winner-take-all readout mechanism}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Neurophysiology}{114}{6}{jn.00378.2015}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACciteatitle {Generating Coherent Patterns of Activity from Chaotic Neural
+  Networks: Neuron}}{%
+\APACciteatitle {Generating Coherent Patterns of Activity from Chaotic Neural
+  Networks: Neuron}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+RN20}
+\APACinsertmetastar {%
+RN20}%
+{\BBOQ}\APACrefatitle {Generating Coherent Patterns of Activity from Chaotic
+  Neural Networks: Neuron} {Generating coherent patterns of activity from
+  chaotic neural networks: Neuron}.{\BBCQ}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guoli%
+, Xiaofei%
+\BCBL {}\ \BBA {} Kan%
+}{%
+Guoli%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+RN9}
+\APACinsertmetastar {%
+RN9}%
+\begin{APACrefauthors}%
+Guoli, W.%
+, Xiaofei, C.%
+\BCBL {}\ \BBA {} Kan, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Summary on Application of Regression Analysis in Water
+  Science} {Summary on application of regression analysis in water
+  science}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{China Rural Water and Hydropower}{}{11}{40-44}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hamid%
+}{%
+Hamid%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+RN14}
+\APACinsertmetastar {%
+RN14}%
+\begin{APACrefauthors}%
+Hamid, Z\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Evaluation of multivariate linear regression and
+  artificial neural networks in prediction of water quality parameters}
+  {Evaluation of multivariate linear regression and artificial neural networks
+  in prediction of water quality parameters}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Environmental Health Science $\&$
+  Engineering}{12}{1}{40-40}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haykin%
+}{%
+Haykin%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+RN23}
+\APACinsertmetastar {%
+RN23}%
+\begin{APACrefauthors}%
+Haykin, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Adaptive Filter Theory. Forth Edition} {Adaptive filter
+  theory. forth edition}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hongli%
+, Xiuhong%
+\BCBL {}\ \BBA {} Qin%
+}{%
+Hongli%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+RN16}
+\APACinsertmetastar {%
+RN16}%
+\begin{APACrefauthors}%
+Hongli, F.%
+, Xiuhong, L.%
+\BCBL {}\ \BBA {} Qin, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Neural Network Prediction and Control Model for Ammonia
+  Oxidizing Process under Low DO Concentration} {Neural network prediction and
+  control model for ammonia oxidizing process under low do
+  concentration}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{China Environmental Science}{37}{1}{139-145}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hongshu%
+}{%
+Hongshu%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+RN3}
+\APACinsertmetastar {%
+RN3}%
+\begin{APACrefauthors}%
+Hongshu, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Analysis and Discussion for the Current Situation of
+  Water Resources on Administer and Water Pollutions on Prevention in Our
+  Country} {Analysis and discussion for the current situation of water
+  resources on administer and water pollutions on prevention in our
+  country}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Environmental Science Survey}{22}{s1}{66-69}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Huiyong%
+\ \BBA {} Peng%
+}{%
+Huiyong%
+\ \BBA {} Peng%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+RN2}
+\APACinsertmetastar {%
+RN2}%
+\begin{APACrefauthors}%
+Huiyong, W.%
+\BCBT {}\ \BBA {} Peng, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Wang Huiyong, Yan Peng} {Wang huiyong, yan peng}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Environmental Protection}{}{4}{35-36}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jaeger%
+\ \BBA {} Haas%
+}{%
+Jaeger%
+\ \BBA {} Haas%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+RN22}
+\APACinsertmetastar {%
+RN22}%
+\begin{APACrefauthors}%
+Jaeger, H.%
+\BCBT {}\ \BBA {} Haas, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Harnessing Nonlinearity: Predicting Chaotic Systems and
+  Saving Energy in Wireless Communication} {Harnessing nonlinearity: Predicting
+  chaotic systems and saving energy in wireless communication}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{304}{5667}{78-80}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jiaquan%
+\ \BBA {} adn Wu~Jun%
+}{%
+Jiaquan%
+\ \BBA {} adn Wu~Jun%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+RN5}
+\APACinsertmetastar {%
+RN5}%
+\begin{APACrefauthors}%
+Jiaquan, W.%
+\BCBT {}\ \BBA {} adn Wu~Jun, C\BPBI Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stream Water Quality Models and Its Development Trend}
+  {Stream water quality models and its development trend}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Anhui Normal University(Natural
+  Science)}{27}{3}{242-247}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jurui%
+\ \BBA {} Duo%
+}{%
+Jurui%
+\ \BBA {} Duo%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+RN8}
+\APACinsertmetastar {%
+RN8}%
+\begin{APACrefauthors}%
+Jurui, Y.%
+\BCBT {}\ \BBA {} Duo, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Realization of Water Quality Simulation Model Based
+  on GIS} {The realization of water quality simulation model based on
+  gis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Gansu Agricultural
+  University}{}{3}{307-309}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Najah%
+, El-Shafie%
+\BCBL {}\ \BBA {} El-Shafie%
+}{%
+Najah%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+RN13}
+\APACinsertmetastar {%
+RN13}%
+\begin{APACrefauthors}%
+Najah, A.%
+, El-Shafie, A.%
+\BCBL {}\ \BBA {} El-Shafie, A\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Application of artificial neural networks for water
+  quality prediction} {Application of artificial neural networks for water
+  quality prediction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Neural Computing $\&$ Applications}{22}{1}{187-201}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Qing%
+, Xuelei%
+\BCBL {}\ \BBA {} Ting%
+}{%
+Qing%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+RN17}
+\APACinsertmetastar {%
+RN17}%
+\begin{APACrefauthors}%
+Qing, Z.%
+, Xuelei, W.%
+\BCBL {}\ \BBA {} Ting, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Prediction of Water Quality Index of Honghu Lake based
+  on Back Propagation Neural Network Model} {Prediction of water quality index
+  of honghu lake based on back propagation neural network model}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Wetland Science}{14}{2}{212-218}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shunze%
+, Qing%
+\BCBL {}\ \BBA {} Hongliang%
+}{%
+Shunze%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2000}}%
 }]{%
@@ -13,17 +444,183 @@ RN1}
 \APACinsertmetastar {%
 RN1}%
 \begin{APACrefauthors}%
-???%
-, ??%
-\BCBL {}\ \BBA {} ???%
+Shunze, W.%
+, Qing, X.%
+\BCBL {}\ \BBA {} Hongliang, L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2000}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {?????????} {?????????}{\BBCQ}
+{\BBOQ}\APACrefatitle {Analysis of Water Pollution in Chinese Watershed}
+  {Analysis of water pollution in chinese watershed}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{???????}{}{2}{1-6}.
+\APACjournalVolNumPages{Environmental Science $\&$ Technology}{}{2}{1-6}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tiesong%
+, Peng%
+\BCBL {}\ \BBA {} Jin%
+}{%
+Tiesong%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
+}]{%
+RN15}
+\APACinsertmetastar {%
+RN15}%
+\begin{APACrefauthors}%
+Tiesong, H.%
+, Peng, Y.%
+\BCBL {}\ \BBA {} Jin, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Applications of Artificial Neural Network to Hydrology
+  and Water Resources} {Applications of artificial neural network to hydrology
+  and water resources}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in Water Science}{6}{1}{76-82}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+L.~Ying%
+, Xinzheng%
+\BCBL {}\ \BBA {} Jingxiang%
+}{%
+L.~Ying%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+RN18}
+\APACinsertmetastar {%
+RN18}%
+\begin{APACrefauthors}%
+Ying, L.%
+, Xinzheng, Z.%
+\BCBL {}\ \BBA {} Jingxiang, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Study on Prediction Modeling for River Water
+  Quality} {The study on prediction modeling for river water quality}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of System Simulation}{13}{2}{139-142}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Z.~Ying%
+\ \BBA {} Qianqian%
+}{%
+Z.~Ying%
+\ \BBA {} Qianqian%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+RN12}
+\APACinsertmetastar {%
+RN12}%
+\begin{APACrefauthors}%
+Ying, Z.%
+\BCBT {}\ \BBA {} Qianqian, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comprehensive prediction model of water quality based on
+  Grey Model and Fuzzy Neural Network} {Comprehensive prediction model of water
+  quality based on grey model and fuzzy neural network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Chinese Journal of Environmental
+  Engineering}{9}{2}{537-545}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yong%
+}{%
+Yong%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+RN19}
+\APACinsertmetastar {%
+RN19}%
+\begin{APACrefauthors}%
+Yong, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\unskip\
+\newblock
+\APACrefbtitle {Timing Data Mining and Its Application in Water Quality
+  Prediction} {Timing data mining and its application in water quality
+  prediction}\ \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Guangdong University of Technology}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhaobing%
+, Baoliang%
+\BCBL {}\ \BBA {} Haifeng%
+}{%
+Zhaobing%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+RN11}
+\APACinsertmetastar {%
+RN11}%
+\begin{APACrefauthors}%
+Zhaobing, S.%
+, Baoliang, W.%
+\BCBL {}\ \BBA {} Haifeng, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Water Quality Prediction Based on
+  Probability-Combination} {Water quality prediction based on
+  probability-combination}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{China Environmental Science}{31}{10}{1657-1662}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhen%
+, Zhijiang%
+\BCBL {}\ \BBA {} Peipei%
+}{%
+Zhen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+RN10}
+\APACinsertmetastar {%
+RN10}%
+\begin{APACrefauthors}%
+Zhen, H.%
+, Zhijiang, Y.%
+\BCBL {}\ \BBA {} Peipei, Q.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Drinking Water Quality Prediction and Visualization
+  Based on Bayesian Method} {Drinking water quality prediction and
+  visualization based on bayesian method}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{China Water $\&$ Wastewater}{28}{5}{53-56}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
