@@ -38,7 +38,7 @@ network.weight_input_CPL(find(network.weight_input_CPL>0.5)) = 1;
 
 
 % set the output weights
-% r = randi([iMin,iMax],m,n)在开区间（iMin，iMax）生成m*n随机矩阵
+% r = randi([iMin,iMax],m,n)在开区间（iMin，iMax）生成m*n随机矩阵 shape:[10,200000]
 network.weight_CPL_decision = randi([init_para.low_decision_weight, init_para.high_decision_weight],...
                                 init_para.numNeurons_decision, init_para.numNeurons_CPL);
 network.weightFilter_CPL_decision = tanh(network.weight_CPL_decision/init_para.bound_decision_weight);

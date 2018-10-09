@@ -6,7 +6,7 @@ flag_sparse = para(3);
 diff_th = para(4);
 
 output_CPL = zeros(size(input_CPL));
-
+% 最大值置为1，其余为0
 for i = 1:numNeurons_cluster:numNeurons_CPL
     
     ind_cluster = weight_recurrent_CPL(i:i+numNeurons_cluster-1);
