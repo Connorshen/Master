@@ -1,40 +1,27 @@
 import numpy as np
-
-
-def get_angle(x, y):
-    Lx = np.sqrt(x.dot(x))
-    Ly = np.sqrt(y.dot(y))
-    cos_angle = x.dot(y) / (Lx * Ly)
-    angle = np.arccos(cos_angle) * 180 / np.pi
-    return angle
-
+import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-    x_dim = 10
-    w_dim = 5
+    x_1 = np.array([0, 1])
+    x_2 = np.array([1, 0])
 
-    x_1_0 = np.array([0 if i < 5 else 1 for i in range(x_dim)])
-    print("x_1_0 =", x_1_0)
-    x_1_1 = x_1_0
-    x_2_0 = np.array([0 if i >= 5 else 1 for i in range(x_dim)])
-    print("x_2_0 =", x_2_0)
-    x_2_1 = x_2_0
+    u = np.random.random([2, 2])
+    w = np.random.random([2, 2])
 
-    w_in = np.random.random((w_dim, x_dim))
-    w_r = np.random.random((w_dim, w_dim))
-    print("w_in = ", w_in)
-    print("w_r =", w_r)
-
-    y_1_1 = np.matmul(w_in, x_1_0)
-    y_1_2 = np.matmul(w_in, x_1_1) + np.matmul(w_r, y_1_1)
-    y_2_1 = np.matmul(w_in, x_2_0)
-    y_2_2 = np.matmul(w_in, x_2_1) + np.matmul(w_r, y_2_1)
-    print("y_1_1 = ", y_1_1)
-    print("y_1_2 = ", y_1_2)
-    print("y_2_1 = ", y_2_1)
-    print("y_2_2 = ", y_2_2)
-    print("y_1_1 - y_1_2 =", y_1_1 - y_1_2)
-    print(np.matmul(np.matmul(w_r, w_in), x_1_0))
-    print("y_2_1 - y_2_2 =", y_2_1 - y_2_2)
-
-    print(get_angle(y_1_1 - y_1_2, y_2_1 - y_2_2))
+    h = np.zeros([2])
+    x = []
+    y = []
+    for i in range(3):
+        h = np.matmul(u, x_1) + np.matmul(w, h)
+        x.append(h[0])
+        y.append(h[1])
+    plt.plot(x, y, "r-")
+    h = np.zeros([2])
+    x = []
+    y = []
+    for i in range(3):
+        h = np.matmul(u, x_2) + np.matmul(w, h)
+        x.append(h[0])
+        y.append(h[1])
+    plt.plot(x, y, "b-")
+    plt.show()
