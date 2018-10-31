@@ -11,16 +11,18 @@ if __name__ == '__main__':
     h = np.zeros([2])
     x = []
     y = []
-    for i in range(3):
+    for i in range(4):
         h = np.matmul(u, x_1) + np.matmul(w, h)
+        print(h)
         x.append(h[0])
         y.append(h[1])
     plt.plot(x, y, "r-")
     h = np.zeros([2])
     x = []
     y = []
-    for i in range(3):
+    for i in range(4):
         h = np.matmul(u, x_2) + np.matmul(w, h)
+        print(h)
         x.append(h[0])
         y.append(h[1])
     plt.plot(x, y, "b-")
