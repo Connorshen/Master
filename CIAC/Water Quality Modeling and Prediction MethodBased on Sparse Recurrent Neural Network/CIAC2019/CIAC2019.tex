@@ -42,7 +42,7 @@ It is an important prerequisite for scientific management and maintenance of wat
 resources to accurately predict all kinds of indicators that affect water quality. 
 This paper proposed a method of forecasting water quality index and rank based on sparse 
 recurrent neural network (SRNN). Based on the principle of minimum mean square 
-recursive error, the training algorithm of the network was designed. The neural network was used to construct a water quality prediction model. The experimental results showed that the model can be used to predict the 
+recurrent error, the training algorithm of the network was designed. The neural network was used to construct a water quality prediction model. The experimental results showed that the model can be used to predict the 
  trend of water quality in ZheJiang province.
 
 
@@ -106,7 +106,7 @@ network which is commonly used in ANN often has the
 disadvantage of slow convergence speed. In addition, BP network is 
 a typical feedforward structure neural network, but water quality data 
 is often a time series\cite{RN19}. BP network is difficult to simulate the time 
-correlation between water quality data. Therefore, based on the latest theoretical research results of the prefrontal cortex in neuroscience\cite{RN20,RN21}, this study quickly constructs a model between water quality data through a recursive least mean square error algorithm by constructing a sparsely connected large-scale recurrent neural network. The accuracy of the model was verified by predicting the water quality 
+correlation between water quality data. Therefore, based on the latest theoretical research results of the prefrontal cortex in neuroscience\cite{RN20,RN21}, this study quickly constructs a model between water quality data through a recurrent least mean square error algorithm by constructing a sparsely connected large-scale recurrent neural network. The accuracy of the model was verified by predicting the water quality 
  indicators such as ammonia nitrogen (AN), dissolved oxygen (DO), permanganate index (PI), 
  total phosphorus (TP) and total nitrogen (TN) in a river.
 \section{Water quality model}
@@ -117,7 +117,7 @@ large number of neurons. The positive and negative connection
 weights between neurons are roughly the same. In particular, 
 when the intensity coefficient of weighted connections between 
 neurons in SRNN exceeds a certain threshold, the spontaneous activity 
-of the recursive network will exhibit chaotic characteristics\cite{RN17}. 
+of the recurrent network will exhibit chaotic characteristics\cite{RN17}. 
 This feature makes the network have strong state coding capabilities. 
 SRNN has been widely used in cognitive modeling of neuroscience. 
 Some theoretical neuroscientists even speculate that SRNN is similar 
@@ -147,24 +147,24 @@ tangent function as well as the activation function of
 recurrent layer neurons. $\tau=0.01$ is the neuron activity
  decay constant.
 
-$w^{RNL}$ represents the recursive connection matrix between 
-neurons in the recursive layer.
-Since the recursive layer has $N=1000$ neurons,$w^{RNL}$is a 
-matrix of size $1000\times1000$.The element $w_{ij}^{RNL}$
+$w^{RNL}$ represents the recurrent connection matrix between 
+neurons in the recurrent layer.
+Since the recurrent layer has $N=1000$ neurons,$w^{RNL}$ is a 
+matrix of $1000\times1000$ size.The element $w_{ij}^{RNL}$
 in the matrix represents the connection weight between 
-the i-th neuron and the j-th neuron in the recursive layer.
-The recursive layer is a sparse connection, and $w_{ij}^{RNL}$
+the i-th neuron and the j-th neuron in the recurrent layer.
+The recurrent layer is a sparse connection, and $w_{ij}^{RNL}$
 sets the probability of $p=0.1$ to a non-zero value and the 
-probability of $1-p=0.9$ to zero.This means that only a few 
-of the reciprocal layer neurons have a mutual connection. 
+probability of $1-p=0.9$ to zero.This means that there are only a 
+few connections between recurrent layer neurons.
 The value of the non-zero element of $w_{ij}^{RNL}$ 
 is randomly selected from the Gaussian distribution $Norm(0,g^{2}/pN)$,
 where $g$ is the intensity coefficient of weight.
-When $g?1.5$, the recursive layer neurons will have the 
+When $g?1.5$, the recurrent layer neurons will have the 
 spontaneous activity of chaotic characteristics\cite{RN17}.
 
 $w^{in}$ represents the connection matrix between the 
-input layer and the recursive layer.
+input layer and the recurrent layer.
 The weights are randomly selected according to the 
 Gaussian distribution $Norm(0, 0.5)$.$w^{fb}$ is the connection 
 weight of the output neuron feedback back to the layered neuron. 
@@ -176,8 +176,8 @@ the predicted output, and its calculation is determined by:
 \begin{equation}
 z=wr
 \end{equation}
-where $w$ represents the connection matrix between the recursive layer 
-and the output layer. The recursive layer and the output layer are 
+where $w$ represents the connection matrix between the recurrent layer 
+and the output layer. The recurrent layer and the output layer are 
 fully connected, and the weights are randomly assigned according 
 to a uniform distribution between $\left[-1,1\right]$. 
 $w$ is different from $w^{RNL}$, $w^{in}$, and $w^{fb}$, and
@@ -187,10 +187,10 @@ its element values need to be updated during the learning phase,
 
 As can be seen from the structure of SRNN, it is similar to the Echo 
 State Network (ESN) \cite{RN22}.
-They all have a recursive layer and the learning process only adjusts 
-the weight between the recursive layer and the output layer. However, 
+They all have a recurrent layer and the learning process only adjusts 
+the weight between the recurrent layer and the output layer. However, 
 SRNN and ESN also have the following differences. First of all, 
-the SRNN's recursive layer connection weight does not need to be 
+the SRNN's recurrent layer connection weight does not need to be 
 specially set, but the ESN needs to have a weight matrix with a 
 spectral radius greater than or equal to 1 in order to achieve reverberation.
 Secondly, the training of ESN is a kind of offline learning. It needs to wait 
@@ -200,7 +200,7 @@ to the current input.
 
 \subsection{SRNN learning algorithm}
 According to the description of SRNN in the previous section, 
-the recursive layer connection weights only need to be randomly 
+the recurrent layer connection weights only need to be randomly 
 selected according to a given probability distribution and use the 
 online learning mode. These features require a learning algorithm 
 that quickly determines how the output weight should be 
@@ -226,7 +226,7 @@ This means that the adjustment of the output weights will not further
 reduce the output error. In order to achieve fast learning,
 the weight adjustment of the output requires a quick reduction 
 in the error value during the previous learning. To this end, 
-according to the recursive least mean square error algorithm \cite{RN23}, 
+according to the recurrent least mean square error algorithm \cite{RN23}, 
 the output weights are adjusted as follows:
 
 \begin{equation}
@@ -234,7 +234,7 @@ w(t)= w(t -\Delta t)  - e(t)P(t)r(t)
 \end{equation}
 
 Equation 5 shows that the decision to update the output weight is the 
-error $e(t)$, the firing rate $r$ of neurons in  the recursive layer, 
+error $e(t)$, the firing rate $r$ of neurons in  the recurrent layer, 
 and the matrix $P(t)$.
 
 The  matrix $P(t)$ can be seen as the learning rate, which is used 
@@ -310,7 +310,7 @@ RMS=  \frac{1}{t_e-t_s}\sum_{i=t_s}^{t_e}\sqrt{(\bar y(i)- y(i))^2}
 \end{equation}
 where $\bar y(i)$ and $y(i)$ are network estimates and real values. 
 $t_e$ and $t_s$ are the start time and end time. The training results of the ammonia nitrogen index are selected 
-to examine the convergence of SRNN. The number of recursive layer neurons is set to 1000.
+to examine the convergence of SRNN. The number of recurrent layer neurons is set to 1000.
 The weight intensity coefficient $g$ is set to 1.5. 
 The step size of Equation 1 is set to 0.05. 
 The constant $\alpha$ of the learning rate matrix $P$ is set to 1.5.
@@ -372,7 +372,7 @@ oxygen using SRNN} against the test data set were 0.065 and 0.057.
 
 Determining the model prediction results are often free parameters in the model, 
 such as the number of BP network hidden layer neurons as well as the initial
-value of the weight and the strength coefficient g of the SRNN recursive 
+value of the weight and the strength coefficient g of the SRNN recurrent 
 layer weight. The generalization ability of the SRNN network is verified
 by calculating the RMS under repeated tests. 
 Let the intensity coefficient g be equal to 0.5, 1.0 as well as 1.5 and run 10 
@@ -384,7 +384,7 @@ RMS under the three intensity coefficients are less
 than 0.08. Their respective variances are 0.0042, 0.0001 and 0.0006. This 
 shows that SRNN can obtain better prediction results under different weight
 intensity coefficients. In particular, when the intensity coefficient
-$g$ is equal to 1.5, the spontaneous activity of the SRNN recursive network has
+$g$ is equal to 1.5, the spontaneous activity of the SRNN recurrent network has
 chaotic characteristics \cite{RN17}. But SRNN can still obtain better prediction results.
 
 \begin{figure*}[htbp]
@@ -493,7 +493,7 @@ BP&0.066&0.1082&0.0943&0.0441&0.0662&$51.75\%$\\
 
 \section{Discussion}
 In this study, a recurrent neural network with sparse connection features was 
-designed to model the water quality data. The mean square recursive error algorithm 
+designed to model the water quality data. The mean square recurrent error algorithm 
 was used to train the network to predict various indicators of water quality 
 and water quality levels. The simulation results show that SRNN has better 
 prediction ability. In particular, SRNN has few free parameters. The three 
@@ -503,14 +503,14 @@ This makes SRNN easier to apply to environmentally variable water
 quality predictions.
 
 SRNN which is similar to Echo State Network (ESN) training only needs 
-to adjust the weight between recursive layer and output layer. 
-This greatly improves the operational efficiency of the recursive network. 
+to adjust the weight between recurrent layer and output layer. 
+This greatly improves the operational efficiency of the recurrent network. 
 Since there is no need to adjust the connection weights between the neurons 
-in the recursive layer during learning, the recursive layer of SRNN 
+in the recurrent layer during learning, the recurrent layer of SRNN 
 and ESN can be considered as a general-purpose computing unit similar
  to the function of the prefrontal cortex of the brain\cite{RN20,RN21}. 
  Although SRNN and ESN are similar in structure, there are also essential 
- differences between them. Firstly, SRNN's recursive layer connection 
+ differences between them. Firstly, SRNN's recurrent layer connection 
  weight does not require special settings. In order to achieve 
  reverberation, ESN requires a weight matrix with a spectral radius 
  greater than or equal to 1. Secondly, ESN training is a kind of 
@@ -529,17 +529,17 @@ and ESN can be considered as a general-purpose computing unit similar
  quickly make the network output close to the target output 
  which mainly in the calculation of the matrix $P$. The matrix $P$ 
  is equivalent to the inverse of the correlation matrix in 
- estimating the recurrence rate of the recursive layer \cite{RN23}. 
+ estimating the recurrence rate of the recurrent layer \cite{RN23}. 
  Intuitively, SRNN's algorithm can accurately adjust the weights 
  between the neurons and the output neurons based on the activity 
- of the recursive layer neurons, so that the output of the 
+ of the recurrent layer neurons, so that the output of the 
  output neurons quickly approaches the actual output value. 
  In addition, SRNN has better predictive performance than BP 
  networks commonly used for water quality prediction. Because 
  the BP network is just a feedforward neural network, which 
  cannot model the correlations that may exist in the input data 
  over time. SRNN which is unlike BP networks is a recurrent neural 
- network. The existence of the recursive layer makes it possible 
+ network. The existence of the recurrent layer makes it possible 
  to establish the temporal correlation of the input data. 
 
 The prediction model proposed in this study belongs to the 
@@ -560,7 +560,7 @@ worthy of further study.
 \section{Conclusion}
 This study designed a recurrent neural network with sparse
 connection features for modeling water quality data. 
-This study uses the mean square recursive error algorithm 
+This study uses the mean square recurrent error algorithm 
 to train the network to predict various indicators of water 
 quality and water quality levels. The simulation results 
 show that the method has the characteristics of wide 
