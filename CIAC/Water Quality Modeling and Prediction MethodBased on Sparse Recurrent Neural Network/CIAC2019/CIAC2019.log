@@ -1,0 +1,446 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.5)  1 MAY 2019 21:34
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**CIAC2019.tex
+(./CIAC2019.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./llncs.cls
+Document Class: llncs 2018/03/10 v2.20 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/04/01 v1.8r multicolumn formatting (FMi)
+\c@tracingmulticols=\count88
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count89
+\c@collectmore=\count90
+\doublecol@number=\count91
+\multicoltolerance=\count92
+\multicolpretolerance=\count93
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen108
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count94
+\c@finalcolumnbadness=\count95
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count96
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2016/05/16 v1.4 Alias counters (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/carlisle/remreset.sty))
+\c@chapter=\count97
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen112
+\tocsecnum=\dimen113
+\tocsectotal=\dimen114
+\tocsubsecnum=\dimen115
+\tocsubsectotal=\dimen116
+\tocsubsubsecnum=\dimen117
+\tocsubsubsectotal=\dimen118
+\tocparanum=\dimen119
+\tocparatotal=\dimen120
+\tocsubparanum=\dimen121
+\@tempcntc=\count98
+\fnindent=\dimen122
+\c@@inst=\count99
+\c@@auth=\count100
+\c@auco=\count101
+\instindent=\dimen123
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count102
+\c@case=\count103
+\c@conjecture=\count104
+\c@corollary=\count105
+\c@definition=\count106
+\c@example=\count107
+\c@exercise=\count108
+\c@lemma=\count109
+\c@note=\count110
+\c@problem=\count111
+\c@property=\count112
+\c@proposition=\count113
+\c@question=\count114
+\c@solution=\count115
+\c@remark=\count116
+\headlineindent=\dimen124
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count117
+\@cmidlb=\count118
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count119
+\@lastruleclass=\count120
+\@thisrulewidth=\dimen139
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip45
+\multirow@cntb=\count121
+\multirow@dima=\skip46
+\bigstrutjot=\dimen140
+)
+(./CIAC2019.aux)
+\openout1 = `CIAC2019.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count122
+\scratchdimen=\dimen141
+\scratchbox=\box54
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen142
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 38.
+
+Title too long for running head. Please supply
+a shorter form with \titlerunning prior to \maketitle
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
+
+Overfull \hbox (5.82153pt too wide) in paragraph at lines 56--71
+\OT1/cmr/m/n/10 With the rapid eco-nomic de-vel-op-ment and pop-u-la-tion growt
+h, sewage and wastew-
+ []
+
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+Package epstopdf Info: Source file: <Structure_of_SRNN.eps>
+(epstopdf)                    date: 2018-09-14 11:18:38
+(epstopdf)                    size: 1047279 bytes
+(epstopdf)             Output file: <Structure_of_SRNN-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-01 19:19:26
+(epstopdf)                    size: 85242 bytes
+(epstopdf)             Command: <repstopdf --outfile=Structure_of_SRNN-eps-conv
+erted-to.pdf Structure_of_SRNN.eps>
+(epstopdf)             \includegraphics on input line 133.
+Package epstopdf Info: Output file is already uptodate.
+<Structure_of_SRNN-eps-converted-to.pdf, id=17, 198.7425pt x 113.42375pt>
+File: Structure_of_SRNN-eps-converted-to.pdf Graphic file (type pdf)
+<use Structure_of_SRNN-eps-converted-to.pdf>
+Package pdftex.def Info: Structure_of_SRNN-eps-converted-to.pdf  used on input 
+line 133.
+(pdftex.def)             Requested size: 347.12354pt x 198.12761pt.
+ [3 <./Structure_of_SRNN-eps-converted-to.pdf>] [4] [5]
+Package epstopdf Info: Source file: <Learning_curve.eps>
+(epstopdf)                    date: 2018-09-14 11:19:48
+(epstopdf)                    size: 2286945 bytes
+(epstopdf)             Output file: <Learning_curve-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-01 19:19:27
+(epstopdf)                    size: 244301 bytes
+(epstopdf)             Command: <repstopdf --outfile=Learning_curve-eps-convert
+ed-to.pdf Learning_curve.eps>
+(epstopdf)             \includegraphics on input line 319.
+Package epstopdf Info: Output file is already uptodate.
+<Learning_curve-eps-converted-to.pdf, id=64, 545.03625pt x 422.57875pt>
+File: Learning_curve-eps-converted-to.pdf Graphic file (type pdf)
+<use Learning_curve-eps-converted-to.pdf>
+Package pdftex.def Info: Learning_curve-eps-converted-to.pdf  used on input lin
+e 319.
+(pdftex.def)             Requested size: 347.12354pt x 269.13408pt.
+Package epstopdf Info: Source file: <Prediction_results.eps>
+(epstopdf)                    date: 2018-09-14 13:48:38
+(epstopdf)                    size: 9492189 bytes
+(epstopdf)             Output file: <Prediction_results-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-01 19:19:31
+(epstopdf)                    size: 2132694 bytes
+(epstopdf)             Command: <repstopdf --outfile=Prediction_results-eps-con
+verted-to.pdf Prediction_results.eps>
+(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Output file is already uptodate.
+<Prediction_results-eps-converted-to.pdf, id=65, 7227.0pt x 3032.32875pt>
+File: Prediction_results-eps-converted-to.pdf Graphic file (type pdf)
+<use Prediction_results-eps-converted-to.pdf>
+Package pdftex.def Info: Prediction_results-eps-converted-to.pdf  used on input
+ line 334.
+(pdftex.def)             Requested size: 347.12354pt x 145.61028pt.
+ [6] [7 <./Learning_curve-eps-converted-to.pdf> <./Prediction_results-eps-conve
+rted-to.pdf>]
+Package epstopdf Info: Source file: <Generalization_for_SRNN.eps>
+(epstopdf)                    date: 2018-09-14 11:21:46
+(epstopdf)                    size: 2025284 bytes
+(epstopdf)             Output file: <Generalization_for_SRNN-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-05-01 19:19:32
+(epstopdf)                    size: 189682 bytes
+(epstopdf)             Command: <repstopdf --outfile=Generalization_for_SRNN-ep
+s-converted-to.pdf Generalization_for_SRNN.eps>
+(epstopdf)             \includegraphics on input line 392.
+Package epstopdf Info: Output file is already uptodate.
+<Generalization_for_SRNN-eps-converted-to.pdf, id=182, 846.16125pt x 330.23375p
+t>
+File: Generalization_for_SRNN-eps-converted-to.pdf Graphic file (type pdf)
+<use Generalization_for_SRNN-eps-converted-to.pdf>
+Package pdftex.def Info: Generalization_for_SRNN-eps-converted-to.pdf  used on 
+input line 392.
+(pdftex.def)             Requested size: 347.12354pt x 135.47229pt.
+Package epstopdf Info: Source file: <Prediction_results_for_other_water_quality
+_indicators.eps>
+(epstopdf)                    date: 2018-09-14 11:21:58
+(epstopdf)                    size: 746908 bytes
+(epstopdf)             Output file: <Prediction_results_for_other_water_quality
+_indicators-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-01 19:19:32
+(epstopdf)                    size: 179110 bytes
+(epstopdf)             Command: <repstopdf --outfile=Prediction_results_for_oth
+er_water_quality_indicators-eps-converted-to.pdf Prediction_results_for_other_w
+ater_quality_indicators.eps>
+(epstopdf)             \includegraphics on input line 410.
+Package epstopdf Info: Output file is already uptodate.
+<Prediction_results_for_other_water_quality_indicators-eps-converted-to.pdf, id
+=183, 2007.5pt x 562.1pt>
+File: Prediction_results_for_other_water_quality_indicators-eps-converted-to.pd
+f Graphic file (type pdf)
+<use Prediction_results_for_other_water_quality_indicators-eps-converted-to.pdf
+>
+Package pdftex.def Info: Prediction_results_for_other_water_quality_indicators-
+eps-converted-to.pdf  used on input line 410.
+(pdftex.def)             Requested size: 347.12354pt x 97.19392pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+[9 <./Generalization_for_SRNN-eps-converted-to.pdf> <./Prediction_results_for_o
+ther_water_quality_indicators-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Predict_water_quality.eps>
+(epstopdf)                    date: 2018-09-14 11:22:10
+(epstopdf)                    size: 1971056 bytes
+(epstopdf)             Output file: <Predict_water_quality-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-05-01 19:20:54
+(epstopdf)                    size: 221262 bytes
+(epstopdf)             Command: <repstopdf --outfile=Predict_water_quality-eps-
+converted-to.pdf Predict_water_quality.eps>
+(epstopdf)             \includegraphics on input line 458.
+Package epstopdf Info: Output file is already uptodate.
+<Predict_water_quality-eps-converted-to.pdf, id=367, 578.16pt x 433.62pt>
+File: Predict_water_quality-eps-converted-to.pdf Graphic file (type pdf)
+<use Predict_water_quality-eps-converted-to.pdf>
+Package pdftex.def Info: Predict_water_quality-eps-converted-to.pdf  used on in
+put line 458.
+(pdftex.def)             Requested size: 347.12354pt x 260.33942pt.
+ [10] [11 <./Predict_water_quality-eps-converted-to.pdf>] [12] (./CIAC2019.bbl 
+[13]) [14] (./CIAC2019.aux) ) 
+Here is how much of TeX's memory you used:
+ 2079 strings out of 492649
+ 30016 string characters out of 6129623
+ 102824 words of memory out of 5000000
+ 5917 multiletter control sequences out of 15000+600000
+ 10518 words of font info for 37 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,9n,25p,444b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmib10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pf
+b>
+Output written on CIAC2019.pdf (14 pages, 3229140 bytes).
+PDF statistics:
+ 493 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
