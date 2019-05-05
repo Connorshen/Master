@@ -135,7 +135,7 @@ Vector y =$\left[y_1,y_2,...,y_m\right]^T$ represents the input layer neuron act
 \label{Structure of SRNN}
 \end{figure}
 
-Neuronal activity level is represented by recursion x, 
+The activity of recurrent layer neurons is represented by x, 
 whose activity was calculated by the formula:
 
 \begin{equation}
@@ -144,10 +144,10 @@ whose activity was calculated by the formula:
 where $r = \tanh(x)$represents the rate of release 
 of recurrent layer neurons and tanh is a hyperbolic 
 tangent function as well as the activation function of 
-recursive layer neurons. $\tau=0.01$is the neuron activity
+recurrent layer neurons. $\tau=0.01$ is the neuron activity
  decay constant.
 
-$w^{RNL}$represents the recursive connection matrix between 
+$w^{RNL}$ represents the recursive connection matrix between 
 neurons in the recursive layer.
 Since the recursive layer has $N=1000$ neurons,$w^{RNL}$is a 
 matrix of size $1000\times1000$.The element $w_{ij}^{RNL}$
