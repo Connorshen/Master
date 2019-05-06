@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.14)  6 MAY 2019 14:57
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.14)  6 MAY 2019 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -35584,8 +35584,8 @@ Invalid UTF-8 byte or sequence at line 424 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 424 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 424 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 424 replaced by U+FFFD.
-File: Prediction_results_for_other_water_quality_indicators.eps Graphic file (type eps)
-<Prediction_results_for_other_water_quality_indicators.eps>
+File: Prediction_results_PI_and_TN_and_TP.eps Graphic file (type eps)
+<Prediction_results_PI_and_TN_and_TP.eps>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -40191,13 +40191,13 @@ Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
-File: Predict_water_quality.eps Graphic file (type eps)
-<Predict_water_quality.eps>
+File: Water_quality_rank_prediction_accuracy.eps Graphic file (type eps)
+<Water_quality_rank_prediction_accuracy.eps>
  [10] [11] [12] (./CIAC2019.bbl [13]) [14] (./CIAC2019.aux) ) 
 Here is how much of TeX's memory you used:
  1261 strings out of 492969
- 16742 string characters out of 6133923
- 93036 words of memory out of 5000000
+ 16736 string characters out of 6133923
+ 94036 words of memory out of 5000000
  5251 multiletter control sequences out of 15000+600000
  9220 words of font info for 42 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

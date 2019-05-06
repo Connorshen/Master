@@ -265,21 +265,21 @@ and $\alpha$ is a constant.
 
 \section{Experimental result}
 \subsection{Water quality data preparation}
-This study selected the water data of a reservoir in Zhejiang 
-from May 2012 to May 2015. The data source was the actual value
+This study selects the water data of a reservoir in Zhejiang 
+from May 2012 to May 2015. The data source is the actual value
 which detected by the automatic monitoring station every 4 hours.
 Dissolved oxygen, permanganate index, ammonia nitrogen, total phosphorus
-and total nitrogen, were selected to evaluate the water quality rank. 
+and total nitrogen, are selected to evaluate the water quality rank. 
 In addition, in order to reduce the influence of daytime illumination 
 and human activity factors, only the water data at 4 o'clock 
-in the morning  was selected. 
+in the morning  is selected. 
 Considering the possible abnormalities of the water quality 
-parameters in the measurement, the data was preprocessed to remove 
-some obvious abnormal data. It used the Grubbs criterion for outlier 
+parameters in the measurement, the data is preprocessed to remove 
+some obvious abnormal data. It uses the Grubbs criterion for outlier 
 detection. First of all, the data is sorted in ascending order. 
-The outliers were sequentially removed from both ends until the data 
+The outliers are sequentially removed from both ends until the data 
 set meets the requirements. In order to determine the abnormal data, 
-it needed to be calculated:
+it need to be calculated:
 
 \begin{equation}
 G_i=\frac{\left|X_i- \bar x \right|}{S}   
@@ -292,27 +292,27 @@ The critical value $G_p (n)$ is determined by the Grubbs table.
 It is related to the detected level $\sigma$ = 0.05 
 and the number $n$ of data of the test data set.
 
-Since the data and the detection range of the water indices were not 
-uniform, the input data needed to be normalized. The value of the 
-input data x was mapped between 0.2 and 0.8. The normalization formula is as follows:
+Since the data and the detection range of the water indices are not 
+uniform, the input data need to be normalized. The value of the 
+input data x is mapped between 0.2 and 0.8. The normalization formula is as follows:
 \begin{equation}
 y=0.6*\frac{x-min(x)}{max(x)-min(x)}+0.2  
 \end{equation}
 
-The minimum time unit of the data set was day $T$. $T$ was taken form 7 days, 14 days, 
+The minimum time unit of the data set is day $T$. $T$ is taken form 7 days, 14 days, 
 and 30 days. They respectively generate 3 sets of training and 
 testing data sets. The water quality data from 
-May 1, 2012 to April 30, 2014 were selected as training data. 
+May 1, 2012 to April 30, 2014 are selected as training data. 
 The water quality data  from May 1, 
-2014 to April 30, 2015 were selected as testing data.
+2014 to April 30, 2015 are selected as testing data.
 Ammonia nitrogen, dissolved oxygen, permanganate index, 
-total phosphorus and total nitrogen were selected as the 
+total phosphorus and total nitrogen are selected as the 
 measured parameters to verify the effectiveness of SRNN.
 
 \subsection{Water quality parameter prediction}
-Water quality data for several days were used as input to 
+Water quality data for several days are used as input to 
 predict water quality afterwards parameters. Network performance 
-was quantified by calculating the root mean square (RMS) error:
+is quantified by calculating the root mean square (RMS) error:
 
 \begin{equation}
 RMS=  \frac{1}{t_e-t_s}\sum_{i=t_s}^{t_e}\sqrt{(\bar y(i)- y(i))^2}
@@ -320,10 +320,10 @@ RMS=  \frac{1}{t_e-t_s}\sum_{i=t_s}^{t_e}\sqrt{(\bar y(i)- y(i))^2}
 where $\bar y(i)$ and $y(i)$ are network estimated value and actual value. 
 $t_e$ and $t_s$ are the start time and end time. The training results of the ammonia 
 nitrogen index were selected to examine the convergence of SRNN. 
-The number of recurrent layer neurons was set to 1000.
-The weight intensity coefficient $g$ was set to 1.5. 
-The step size of Equation 1 was set to 0.05. 
-The constant $\alpha$ of the learning rate matrix $P$ was set to 1.5.
+The number of recurrent layer neurons is set to 1000.
+The weight intensity coefficient $g$ is set to 1.5. 
+The step size of Equation 1 is set to 0.05. 
+The constant $\alpha$ of the learning rate matrix $P$ is set to 1.5.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\columnwidth]{RMS_error_for_SRNN}
@@ -331,12 +331,12 @@ The constant $\alpha$ of the learning rate matrix $P$ was set to 1.5.
 \label{RMS error for SRNN}
 \end{figure}
 
-Figure \ref{RMS error for SRNN} shows the learning curve of SRNN, that was the changes of 
-RMS with the number of iterations. The data in the figure was the 
+Figure \ref{RMS error for SRNN} shows the learning curve of SRNN, that is the changes of 
+RMS with the number of iterations. The data in the figure is the 
 result of repeating 10 training sessions. 
 It can be seen from the figure that the value of RMS 
 gradually decreased with the number of iterations. 
-It converged after about 15 iterations, which indicates that the training 
+It converge after about 15 iterations, which indicates that the training 
 speed of SRNN is faster.
 
 \begin{figure*}[htbp]
@@ -346,15 +346,15 @@ speed of SRNN is faster.
 \label{Prediction results for ammonia nitrogen and dissolved oxygen using SRNN}
 \end{figure*}
 
-Although the SRNN training converged faster, it was necessary to 
+Although the SRNN training converge faster, it is necessary to 
 calculate the prediction result of SRNN under the test data in 
 order to characterize the prediction ability of SRNN. 
-We tested the prediction results of SRNN on 
+We test the prediction results of SRNN on 
 ammonia nitrogen and dissolved oxygen in water quality. 
-The prediction result was shown in Figure \ref{Prediction results for ammonia nitrogen
+The prediction result is shown in Figure \ref{Prediction results for ammonia nitrogen
 and dissolved oxygen using SRNN}. The solid line 
 was the measured data of ammonia nitrogen and dissolved oxygen, 
-while the dotted line was the predicted result given by SRNN. 
+while the dashed line was the prediction result given by SRNN. 
 Ammonia nitrogen refers to nitrogen in the form of free ammonia 
 ($NH_3$) and ammonium ions ($NH_4^+$) in water. The ammonia nitrogen 
 wastewater is mainly derived from chemical fertilizer, coking, 
@@ -364,7 +364,7 @@ into the water not only causes eutrophication of the water,
 but also causes black odor in the water.
 The trend of the change of ammonia nitrogen in time in Figure \ref{Prediction results for ammonia nitrogen
 and dissolved oxygen using SRNN} 
-indicates (solid line) that the change of ammonia nitrogen in water 
+indices (solid line) that the change of ammonia nitrogen in water 
 is extremely unstable and there are often mutations. 
 The dissolved oxygen content in the water is closely related to
 the partial pressure of oxygen in the air and the 
@@ -374,15 +374,15 @@ is relatively flat. It is not difficult to find from the prediction
 results in Figure \ref{Prediction results for ammonia nitrogen
 and dissolved oxygen using SRNN} 
 (dashed line) that SRNN can accurately predict 
-these two water quality indicators whether it is for the 
+these two water quality indices whether it is for the 
 ammonia nitrogen index with mutation (Figure \ref{Prediction results for ammonia nitrogen
 and dissolved oxygen using SRNN}(A)) or 
 for the relatively stable dissolved oxygen 
 (Figure \ref{Prediction results for ammonia nitrogen
 and dissolved oxygen using SRNN}(B)). 
 The prediction errors (RMS) for the two water quality 
-indicators in Figure \ref{Prediction results for ammonia nitrogen
-and dissolved oxygen using SRNN} against the test data set were 0.065 and 0.057.
+indices in Figure \ref{Prediction results for ammonia nitrogen
+and dissolved oxygen using SRNN} against the test data set are 0.065 and 0.057.
 
 Determining the model prediction results are often free parameters in the model, 
 such as the number of BP network hidden layer neurons as well as the initial
@@ -414,24 +414,24 @@ results based on the time series of the
 previous 7 days are significantly better than the prediction results 
 based on the time series of the first 14 days or the first 30 days.
 
-In addition, SRNN was used to test the three water quality indicators of 
+In addition, SRNN is used to test the three water quality indices of 
 permanganate index, total nitrogen and total phosphorus in water. 
-The test results are shown in Figure \ref{Prediction results for other water quality indicators}. 
+The test results are shown in Figure \ref{Prediction results for other water quality indices}. 
 It is not difficult to see that 
-SRNN's predictions for these three water quality indicators are equally accurate.
+SRNN's predictions for these three water quality indices are equally accurate.
 \begin{figure*}[htbp]
 \centering
-\includegraphics[width=\columnwidth]{Prediction_results_for_other_water_quality_indicators}
-\caption{Prediction results for other water quality indicators}
-\label{Prediction results for other water quality indicators}
+\includegraphics[width=\columnwidth]{Prediction_results_PI_and_TN_and_TP}
+\caption{Prediction results for other water quality indices}
+\label{Prediction results for other water quality indices}
 \end{figure*}
 
 \subsection{Water quality level prediction}
-After successfully predicting water quality indicators, 
+After successfully predicting water quality indices, 
 SRNN will be further used to predict water quality levels. 
 According to the National Surface Water Environmental Quality Standard (GB3838-2002): 
 the surface water quality grade (L) is divided into 
-five grades from I to V. Class I-III water meets urban drinking water standards. 
+five ranks from I to V. Class I-III water meets urban drinking water standards. 
 In order to correspond to the five levels of water quality, the output of 
 SRNN is modified to 5 neurons. Each neuron corresponds to a level. 
 The five neurons with the highest rate of release are set to the output of SRNN:
@@ -443,7 +443,7 @@ L=argmax_i[z_1,z_2,z_3,z_4,z_5 ](i=1,2,3,4,5)
 When the output result $z = [0.001, 0.089, 0.2, 1.23, 0.5]^T$ and the index $i$ of 
 the largest element in $z$ is 4, then the water quality level $L$ predicted by SRNN is IV. 
 In order to more accurately describe the relationship between the predicted 
-level and the true level, the relative distance $D$ between the two levels 
+rank and the actual rank, the relative distance $D$ between the two ranks 
 is also calculated to represent $e(t)$. The setting of $e(t)$ is shown in Table \ref{Training error setting}.
 \begin{table}[htbp] 
 \centering
@@ -463,15 +463,15 @@ We use a total of 368 data sets with a 7-day monitoring interval from May 1,
 7-day monitoring interval from May 1, 2014 to April 30, 2015 during testing process. 
 Through 20 repeated experiments, the best correct rate of water level prediction was $89\%$,
 as well as the average correct rate was $85.6\%$. At the same time, 
-this study also tests the SRNN forecast to reach the water quality
-level in the next 2 to 6 days.  As shown in Figure \ref{Predict water 
-quality level using SRNN}, the correct rate of prediction results is above $80\%$.
+this study also tests the SRNN predict to reach the water quality
+level in the next 2 to 6 days.  As shown in Figure \ref{Water quality rank prediction accuracy},
+the correct rate of prediction results is above $80\%$.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\columnwidth]{Predict_water_quality}
-\caption{Predict water quality level using SRNN}
-\label{Predict water quality level using SRNN}
+\includegraphics[width=\columnwidth]{Water_quality_rank_prediction_accuracy}
+\caption{Water quality rank prediction accuracy}
+\label{Water quality rank prediction accuracy}
 \end{figure}
 
 \subsection{Model comparison}
