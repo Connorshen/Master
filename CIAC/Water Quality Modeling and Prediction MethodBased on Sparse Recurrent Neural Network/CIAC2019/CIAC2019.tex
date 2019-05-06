@@ -113,13 +113,13 @@ is often a time series\cite{RN19}. BP network is difficult to simulate the time
 correlation between water quality data. 
 To this end, this study based on the latest theoretical research results of the prefrontal 
 cortex in neuroscience\cite{RN20,RN21}, through the construction of a sparse connection 
-large-scale recurrent neural network which use the recursive least mean 
+large-scale recurrent neural network which used the recursive least mean 
 square error algorithm to quickly learn the patterns between water quality data.
 The accuracy of the model was verified by predicting the water quality 
 indices such as ammonia nitrogen (AN), dissolved oxygen (DO), permanganate index (PI), 
 total phosphorus (TP) and total nitrogen (TN) in a reservoir.
 \section{Water quality model}
-This study used a sparsely connected recurrent neural network (SRNN)
+This study used a sparse recurrent neural network (SRNN)
 to simulate the temporal correlation between water quality data. 
 SRNN which is unlike common recurrent neural networks contains a 
 large number of neurons. The positive and negative connection 
@@ -127,15 +127,15 @@ weights between neurons are roughly the same. In particular,
 when the intensity coefficient of weighted connections between 
 neurons in SRNN exceeds a certain threshold, the spontaneous activity 
 of the recurrent network will exhibit chaotic characteristics\cite{RN17}. 
-This feature makes the network have strong state coding capabilities. 
+This feature makes the network has strong state coding capabilities. 
 SRNN has been widely used in cognitive modeling of neuroscience. 
 Some theoretical neuroscientists even speculate that SRNN is similar 
 to the function of the prefrontal cortex of the brain\cite{RN18}.
 \subsection{SRNN network structure}
 As shown in Figure \ref{Structure of SRNN}, 
-the SRNN contains three parts, an input layer y, a recurrent layer x, and an output layer z.
+the SRNN contains three parts, an input layer y, a recurrent layer x and an output layer z.
 Vector y =$\left[y_1,y_2,...,y_m\right]^T$ represents the input layer neuron activity,
- where $y_i$ is the input water quality indicator and the superscript T is the transpose.
+ where $y_i$ is the input water quality indices and the superscript T is the transpose.
 
 \begin{figure}[htbp]
 \centering
@@ -169,7 +169,7 @@ few connections between recurrent layer neurons.
 The value of the non-zero element of $w_{ij}^{RNL}$ 
 is randomly selected from the Gaussian distribution $Norm(0,g^{2}/pN)$,
 where $g$ is the intensity coefficient of weight.
-When $g?1.5$, the recurrent layer neurons will have the 
+When \underline{$g?1.5$}, the recurrent layer neurons will have the 
 spontaneous activity of chaotic characteristics\cite{RN17}.
 
 $w^{in}$ represents the connection matrix between the 
