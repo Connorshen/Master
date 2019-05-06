@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.14)  6 MAY 2019 19:19
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.14)  6 MAY 2019 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4630,8 +4630,8 @@ Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
-File: Structure_of_SRNN.eps Graphic file (type eps)
-<Structure_of_SRNN.eps>
+File: Fig1_structure_of_SRNN.eps Graphic file (type eps)
+<Fig1_structure_of_SRNN.eps>
  [3] [4] [5]
 Invalid UTF-8 byte or sequence at line 329 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 329 replaced by U+FFFD.
@@ -8712,8 +8712,8 @@ Invalid UTF-8 byte or sequence at line 329 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 329 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 329 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 329 replaced by U+FFFD.
-File: RMS_error_for_SRNN.eps Graphic file (type eps)
-<RMS_error_for_SRNN.eps>
+File: Fig2_RMS_error_for_SRNN.eps Graphic file (type eps)
+<Fig2_RMS_error_for_SRNN.eps>
 Invalid UTF-8 byte or sequence at line 344 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 344 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 344 replaced by U+FFFD.
@@ -17098,8 +17098,8 @@ Invalid UTF-8 byte or sequence at line 344 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 344 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 344 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 344 replaced by U+FFFD.
-File: Prediction_results_AN_and_DO.eps Graphic file (type eps)
-<Prediction_results_AN_and_DO.eps>
+File: Fig3_prediction_results_AN_and_DO.eps Graphic file (type eps)
+<Fig3_prediction_results_AN_and_DO.eps>
  [6] [7]
 Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
@@ -36654,8 +36654,8 @@ Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
-File: Generalization_for_SRNN.eps Graphic file (type eps)
-<Generalization_for_SRNN.eps>
+File: Fig4_generalization_for_SRNN.eps Graphic file (type eps)
+<Fig4_generalization_for_SRNN.eps>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -43499,8 +43499,8 @@ Invalid UTF-8 byte or sequence at line 424 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 424 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 424 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 424 replaced by U+FFFD.
-File: Prediction_results_PI_and_TN_and_TP.eps Graphic file (type eps)
-<Prediction_results_PI_and_TN_and_TP.eps>
+File: Fig5_prediction_results_PI_and_TN_and_TP.eps Graphic file (type eps)
+<Fig5_prediction_results_PI_and_TN_and_TP.eps>
 Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
@@ -48102,16 +48102,16 @@ Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
-File: Water_quality_rank_prediction_accuracy.eps Graphic file (type eps)
-<Water_quality_rank_prediction_accuracy.eps>
+File: Fig6_water_quality_rank_prediction_accuracy.eps Graphic file (type eps)
+<Fig6_water_quality_rank_prediction_accuracy.eps>
  [9] [10] [11] (./CIAC2019.bbl [12]) [13] (./CIAC2019.aux) ) 
 Here is how much of TeX's memory you used:
  1261 strings out of 492969
- 16744 string characters out of 6133923
+ 16834 string characters out of 6133923
  98036 words of memory out of 5000000
  5251 multiletter control sequences out of 15000+600000
  9220 words of font info for 42 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 29i,9n,21p,83078b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,21p,83083b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CIAC2019.pdf (13 pages).
