@@ -39,11 +39,14 @@ Leilei Zhang\inst{}}
 %
 \begin{abstract}
 It is an important prerequisite for scientific management and maintenance of water 
-resources to accurately predict all kinds of indicators that affect water quality. 
-This paper proposed a method of forecasting water quality index and rank based on sparse 
-recurrent neural network (SRNN). Based on the principle of minimum mean square 
-recurrent error, the training algorithm of the network was designed. The neural network was used to construct a water quality prediction model. The experimental results showed that the model can be used to predict the 
- trend of water quality in ZheJiang province.
+resources to accurately predict all kinds of indices that affect water quality. 
+This paper proposed a method of forecasting water quality index and rank based on a sparse 
+recurrent neural network (SRNN). The learning algorithm of the network was designed 
+based on the principle of minimum mean square recursion error, and a 
+prediction model for predicting water quality index and rank was 
+constructed by using the neural network.The experimental results 
+showed that the model can be used to predict the trend of water quality 
+in ZheJiang province.
 
 
 \keywords{Water quality modeling\and Water quality prediction\and Recurrent neural network.}
@@ -59,7 +62,8 @@ human are posing a serious threat to the water quality of lakes and
 rivers\cite{RN1}.There are various problems such as water shortage, water 
 pollution and deterioration of water ecological environment in all 
 parts of China\cite{RN1}, which has become the main bottleneck restricting the 
-sustainable development of economy and society. In order to effectively solve this problem, the rational planning 
+sustainable development of economy and society. In order to effectively 
+solve this problem, the rational planning 
 of water resources is particularly important\cite{RN2,RN3}. Accurate detection of water 
 quality parameters of rivers and lakes, as well as reasonable prediction
 of future changes in water quality parameters\cite{RN4}, is a necessary 
@@ -95,7 +99,9 @@ to obtain the mapping between the input data and the data to
 be predicted. The learning model with adjusted parameters can be 
 used for water quality prediction. Common learning models include various 
 regression analysis based on statistical principles\cite{RN9,RN10,RN11,RN12} and artificial
-neural network (ANN)\cite{RN13,RN14,RN15,RN16,RN17,RN18}. Because these models have a learning process, they can be applied to various water quality predictions under environmentally variable scenarios.
+neural network (ANN)\cite{RN13,RN14,RN15,RN16,RN17,RN18}. Because these models have a 
+learning process, they can be applied to various water quality 
+predictions under environmentally variable scenarios.
 
 In order to obtain higher prediction accuracy, the ANN 
 commonly used in DDM often needs a large number of historical 
@@ -106,9 +112,14 @@ network which is commonly used in ANN often has the
 disadvantage of slow convergence speed. In addition, BP network is 
 a typical feedforward structure neural network, but water quality data 
 is often a time series\cite{RN19}. BP network is difficult to simulate the time 
-correlation between water quality data. Therefore, based on the latest theoretical research results of the prefrontal cortex in neuroscience\cite{RN20,RN21}, this study quickly constructs a model between water quality data through a recurrent least mean square error algorithm by constructing a sparsely connected large-scale recurrent neural network. The accuracy of the model was verified by predicting the water quality 
- indicators such as ammonia nitrogen (AN), dissolved oxygen (DO), permanganate index (PI), 
- total phosphorus (TP) and total nitrogen (TN) in a river.
+correlation between water quality data. Therefore, based on the latest theoretical 
+research results of the prefrontal cortex in neuroscience\cite{RN20,RN21}, this 
+study quickly constructs a model between water quality data through a 
+recurrent least mean square error algorithm by constructing a 
+sparsely connected large-scale recurrent neural network. 
+The accuracy of the model was verified by predicting the water quality 
+indicators such as ammonia nitrogen (AN), dissolved oxygen (DO), permanganate index (PI), 
+total phosphorus (TP) and total nitrogen (TN) in a river.
 \section{Water quality model}
 This study used a sparsely connected recurrent neural network (SRNN)
 to simulate the temporal correlation between water quality data. 
@@ -309,8 +320,9 @@ is quantified by calculating the root mean square (RMS) error:
 RMS=  \frac{1}{t_e-t_s}\sum_{i=t_s}^{t_e}\sqrt{(\bar y(i)- y(i))^2}
 \end{equation}
 where $\bar y(i)$ and $y(i)$ are network estimates and real values. 
-$t_e$ and $t_s$ are the start time and end time. The training results of the ammonia nitrogen index are selected 
-to examine the convergence of SRNN. The number of recurrent layer neurons is set to 1000.
+$t_e$ and $t_s$ are the start time and end time. The training results of the ammonia 
+nitrogen index are selected to examine the convergence of SRNN. 
+The number of recurrent layer neurons is set to 1000.
 The weight intensity coefficient $g$ is set to 1.5. 
 The step size of Equation 1 is set to 0.05. 
 The constant $\alpha$ of the learning rate matrix $P$ is set to 1.5.
@@ -341,7 +353,8 @@ calculate the prediction result of SRNN under the test data in
 order to characterize the prediction ability of SRNN. 
 We test the prediction results of SRNN on 
 ammonia nitrogen and dissolved oxygen in water quality. 
-The predicted result is shown in Figure \ref{Prediction results for ammonia and dissolved oxygen using SRNN}. The solid line 
+The predicted result is shown in Figure \ref{Prediction results for ammonia 
+and dissolved oxygen using SRNN}. The solid line 
 is the measured data of ammonia nitrogen and dissolved oxygen, 
 while the dotted line is the predicted result given by SRNN. 
 Ammonia nitrogen refers to nitrogen in the form of free ammonia 
@@ -450,8 +463,8 @@ We use a total of 368 data sets with a 7-day monitoring interval from May 1,
 Through 20 repeated experiments, the best correct rate of water level prediction was $89\%$,
 as well as the average correct rate was $85.6\%$. At the same time, 
 this study also tests the SRNN forecast to reach the water quality
-level in the next 2 to 6 days.  As shown in Figure \ref{Predict water quality level using SRNN}, the correct rate of prediction 
-results is above $80\%$.
+level in the next 2 to 6 days.  As shown in Figure \ref{Predict water 
+quality level using SRNN}, the correct rate of prediction results is above $80\%$.
 
 \begin{figure}[htbp]
 \centering
