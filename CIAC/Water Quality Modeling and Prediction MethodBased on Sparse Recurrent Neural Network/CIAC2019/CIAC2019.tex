@@ -289,7 +289,7 @@ $X_i$ is the data to be tested. $\bar x$ is the arithmetic mean of the data set.
 $S$ is the standard deviation of the data set.If $G_s$ is bigger than $G_p (n)$, 
 it is judged that the data is an abnormal value. 
 The critical value $G_p (n)$ is determined by the Grubbs table. 
-It is related to the detected level $\sigma$ = 0.05 
+It is related to the detected rank $\sigma$ = 0.05 
 and the number $n$ of data of the test data set.
 
 Since the data and the detection range of the water indices are not 
@@ -426,14 +426,14 @@ SRNN's predictions for these three water quality indices are equally accurate.
 \label{Prediction results for other water quality indices}
 \end{figure*}
 
-\subsection{Water quality level prediction}
+\subsection{Water quality rank prediction}
 After successfully predicting water quality indices, 
-SRNN will be further used to predict water quality levels. 
+SRNN will be further used to predict water quality ranks. 
 According to the National Surface Water Environmental Quality Standard (GB3838-2002): 
-the surface water quality grade (L) is divided into 
+the surface water quality rank (L) is divided into 
 five ranks from I to V. Class I-III water meets urban drinking water standards. 
-In order to correspond to the five levels of water quality, the output of 
-SRNN is modified to 5 neurons. Each neuron corresponds to a level. 
+In order to correspond to the five ranks of water quality, the output of 
+SRNN is modified to 5 neurons. Each neuron corresponds to a rank. 
 The five neurons with the highest rate of release are set to the output of SRNN:
 
 \begin{equation}
@@ -441,7 +441,7 @@ L=argmax_i[z_1,z_2,z_3,z_4,z_5 ](i=1,2,3,4,5)
 \end{equation}
 
 When the output result $z = [0.001, 0.089, 0.2, 1.23, 0.5]^T$ and the index $i$ of 
-the largest element in $z$ is 4, then the water quality level $L$ predicted by SRNN is IV. 
+the largest element in $z$ is 4, then the water quality rank $L$ predicted by SRNN is IV. 
 In order to more accurately describe the relationship between the predicted 
 rank and the actual rank, the relative distance $D$ between the two ranks 
 is also calculated to represent $e(t)$. The setting of $e(t)$ is shown in Table \ref{Training error setting}.
@@ -461,10 +461,10 @@ $e(t)$&0&0.15&0.25&0.35&0.45\\
 We use a total of 368 data sets with a 7-day monitoring interval from May 1,
 2012 to April 30, 2014 during training process. We use a total of 200 data sets with a 
 7-day monitoring interval from May 1, 2014 to April 30, 2015 during testing process. 
-Through 20 repeated experiments, the best correct rate of water level prediction was $89\%$,
+Through 20 repeated experiments, the best correct rate of water rank prediction was $89\%$,
 as well as the average correct rate was $85.6\%$. At the same time, 
 this study also tests the SRNN predict to reach the water quality
-level in the next 2 to 6 days.  As shown in Figure \ref{Water quality rank prediction accuracy},
+rank in the next 2 to 6 days.  As shown in Figure \ref{Water quality rank prediction accuracy},
 the correct rate of prediction results is above $80\%$.
 
 \begin{figure}[htbp]
@@ -476,9 +476,9 @@ the correct rate of prediction results is above $80\%$.
 
 \subsection{Model comparison}
 The effectiveness of SRNN has been demonstrated by predicting 
-different water quality indicators and water quality levels in a river. 
+different water quality indices and water quality ranks in a river. 
 In the following, we will further explain that SRNN is more suitable 
-for the prediction of water quality indicators and grades with time 
+for the prediction of water quality indices and ranks with time 
 correlation by comparing with the prediction results of BP neural network. 
 BP neural network model structure is a three-layer structure BP. The number 
 of neurons in the input layer corresponds to the input length of the data. 
@@ -506,10 +506,10 @@ BP&0.066&0.1082&0.0943&0.0441&0.0662&$51.75\%$\\
 \end{table*}
 
 \section{Discussion}
-In this study, a recurrent neural network with sparse connection features was 
+In this study, a recurrent neural network with sparse connection features is 
 designed to model the water quality data. The mean square recurrent error algorithm 
-was used to train the network to predict various indicators of water quality 
-and water quality levels. The simulation results show that SRNN has better 
+is used to train the network to predict various indices of water quality 
+and water quality ranks. The simulation results show that SRNN has better 
 prediction ability. In particular, SRNN has few free parameters. The three 
 weights of $w^{RNL}$, $w^{in}$, and $w^{fb}$ only need to be randomly set 
 according to the distribution to obtain better prediction results.
@@ -522,65 +522,65 @@ This greatly improves the operational efficiency of the recurrent network.
 Since there is no need to adjust the connection weights between the neurons 
 in the recurrent layer during learning, the recurrent layer of SRNN 
 and ESN can be considered as a general-purpose computing unit similar
- to the function of the prefrontal cortex of the brain\cite{RN20,RN21}. 
- Although SRNN and ESN are similar in structure, there are also essential 
- differences between them. Firstly, SRNN's recurrent layer connection 
- weight does not require special settings. In order to achieve 
- reverberation, ESN requires a weight matrix with a spectral radius 
- greater than or equal to 1. Secondly, ESN training is a kind of 
- offline learning, that is, it needs to wait for the network to 
- pre-calculate for a period of time before adjusting the output 
- weight. But SRNN can update the output weights on the fly based 
- on the current input. This feature is especially important 
- in situations where the amount of training data is insufficient. 
+to the function of the prefrontal cortex of the brain\cite{RN20,RN21}. 
+Although SRNN and ESN are similar in structure, there are also essential 
+differences between them. Firstly, SRNN's recurrent layer connection 
+weight does not require special settings. In order to achieve 
+reverberation, ESN requires a weight matrix with a spectral radius 
+greater than or equal to 1. Secondly, ESN training is a kind of 
+offline learning, that is, it needs to wait for the network to 
+pre-calculate for a period of time before adjusting the output 
+weight. But SRNN can update the output weights on the fly based 
+on the current input. This feature is especially important 
+in situations where the amount of training data is insufficient. 
 
- The good predictive performance of SRNN is not only related to 
- its structure, but also closely related to the learning algorithm 
- it uses. It is not difficult to see from Equation 5 and 6 that the 
- learning algorithm of SRNN is the same as the BP network error 
- back propagation algorithm. However, compared to the error 
- backpropagation algorithm, the learning process of SRNN can 
- quickly make the network output close to the target output 
- which mainly in the calculation of the matrix $P$. The matrix $P$ 
- is equivalent to the inverse of the correlation matrix in 
- estimating the recurrence rate of the recurrent layer \cite{RN23}. 
- Intuitively, SRNN's algorithm can accurately adjust the weights 
- between the neurons and the output neurons based on the activity 
- of the recurrent layer neurons, so that the output of the 
- output neurons quickly approaches the actual output value. 
- In addition, SRNN has better predictive performance than BP 
- networks commonly used for water quality prediction. Because 
- the BP network is just a feedforward neural network, which 
- cannot model the correlations that may exist in the input data 
- over time. SRNN which is unlike BP networks is a recurrent neural 
- network. The existence of the recurrent layer makes it possible 
- to establish the temporal correlation of the input data. 
+The good predictive performance of SRNN is not only related to 
+its structure, but also closely related to the learning algorithm.
+It is not difficult to see from Equation 5 and 6 that the 
+learning algorithm of SRNN is the same as the BP network error 
+back propagation algorithm. However, compared to the error 
+backpropagation algorithm, the learning process of SRNN can 
+quickly make the network output close to the target output 
+which mainly in the calculation of the matrix $P$. The matrix $P$ 
+is equivalent to the inverse of the correlation matrix in 
+estimating the recurrence rate of the recurrent layer \cite{RN23}. 
+Intuitively, SRNN's algorithm can accurately adjust the weights 
+between the neurons and the output neurons based on the activity 
+of the recurrent layer neurons, so that the output of the 
+output neurons quickly approaches the actual output value. 
+In addition, SRNN has better predictive performance than BP 
+networks commonly used for water quality prediction. Because 
+the BP network is just a feedforward neural network, which 
+cannot model the correlations that may existing in the input data 
+over time. SRNN which is different from BP networks is a recurrent neural 
+network. The existence of the recurrent layer makes it possible 
+to establish the temporal correlation of the input data. 
 
 The prediction model proposed in this study belongs to the 
-data-driven water quality prediction model DDM. Compared with
+data-driven water quality prediction model(DDM). Compared with
 PDM, DDM can adapt to water quality prediction under changing 
 conditions. However, the model constructed in DDM mode is 
 difficult to interpret from the perspective of true biochemical 
-reaction between water quality indicators. This makes it possible
+reaction between water quality indices. This makes it possible
 to overfit the data when applying DDM. Therefore, when applied to 
-the prediction of water quality indicators, considering the integration 
+the prediction of water quality indices, considering the integration 
 of PDM into DDM is a problem that needs to be studied in the future.
 In addition, there are many factors affecting water quality parameters 
-and grades, such as seasons and climate. However, this study did not add 
+and ranks, such as seasons and climate. However, this study has not add 
 these factors to the model. Therefore, how to integrate more variables 
 into SRNN to improve the accuracy of model prediction is a problem 
 worthy of further study.  
 
 \section{Conclusion}
-This study designed a recurrent neural network with sparse
+This study design a recurrent neural network with sparse
 connection features for modeling water quality data. 
 This study uses the mean square recurrent error algorithm 
-to train the network to predict various indicators of water 
-quality and water quality levels. The simulation results 
+to train the network to predict various indices of water 
+quality and water quality ranks. The simulation results 
 show that the method has the characteristics of wide 
-adaptability to the model parameters and fast convergence.
+adaptability to the model parameters and fast convergence ability.
 This method can be used to predict the future trends of
-water quality parameters and water quality levels of 
+water quality parameters and water quality ranks of 
 rivers and lakes. The method can play an active role 
 in intelligent modeling of river water quality, 
 watershed planning and pollution control.
