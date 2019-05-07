@@ -3,10 +3,6 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: CIAC2019.aux
 The style file: splncs04.bst
 Database file #1: mybibliography.bib
-Warning--to sort, need author or key in RN20
-Warning--empty author in RN20
-Warning--empty journal in RN20
-Warning--empty year in RN20
 Warning--there's a number but no volume in RN6
 Warning--there's a number but no volume in RN9
 Warning--empty journal in RN23
@@ -15,43 +11,43 @@ Warning--there's a number but no volume in RN8
 Warning--there's a number but no volume in RN1
 You've used 23 entries,
             2850 wiz_defined-function locations,
-            758 strings with 7968 characters,
-and the built_in function-call counts, 13129 in all, are:
-= -- 1084
-> -- 315
-< -- 35
-+ -- 133
-- -- 108
-* -- 831
-:= -- 1584
-add.period$ -- 21
+            765 strings with 8055 characters,
+and the built_in function-call counts, 13504 in all, are:
+= -- 1126
+> -- 326
+< -- 37
++ -- 137
+- -- 112
+* -- 853
+:= -- 1635
+add.period$ -- 22
 call.type$ -- 23
-change.case$ -- 122
+change.case$ -- 124
 chr.to.int$ -- 0
-cite$ -- 33
-duplicate$ -- 1221
-empty$ -- 1191
-format.name$ -- 125
-if$ -- 2938
+cite$ -- 29
+duplicate$ -- 1249
+empty$ -- 1217
+format.name$ -- 130
+if$ -- 3026
 int.to.chr$ -- 0
 int.to.str$ -- 23
-missing$ -- 226
+missing$ -- 230
 newline$ -- 75
-num.names$ -- 44
-pop$ -- 377
+num.names$ -- 46
+pop$ -- 372
 preamble$ -- 1
-purify$ -- 100
+purify$ -- 102
 quote$ -- 0
-skip$ -- 437
+skip$ -- 448
 stack$ -- 0
-substring$ -- 818
-swap$ -- 769
-text.length$ -- 35
+substring$ -- 858
+swap$ -- 799
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 92
-warning$ -- 10
-while$ -- 106
+warning$ -- 6
+while$ -- 112
 width$ -- 25
-write$ -- 227
-(There were 10 warnings)
+write$ -- 232
+(There were 6 warnings)

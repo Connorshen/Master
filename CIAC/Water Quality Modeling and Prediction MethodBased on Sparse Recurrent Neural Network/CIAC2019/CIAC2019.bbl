@@ -3,9 +3,6 @@
 \providecommand{\urlprefix}{URL }
 \providecommand{\doi}[1]{https://doi.org/#1}
 
-\bibitem{RN20}
-Generating coherent patterns of activity from chaotic neural networks: Neuron
-
 \bibitem{RN7}
 Bayram, A., Uzlu, E., Kankal, M., Dede, T.: Modeling stream dissolved oxygen
   concentration using teaching–learning based optimization algorithm.
@@ -35,7 +32,7 @@ Hamid, Z.A.: Evaluation of multivariate linear regression and artificial neural
   Health Science $\&$ Engineering  \textbf{12}(1),  40--40 (2014)
 
 \bibitem{RN23}
-Haykin, S.: Adaptive filter theory. forth edition  (2003)
+Haykin, S.: Adaptive filter theory, 5e  (2002)
 
 \bibitem{RN16}
 Hongli, F., Xiuhong, L., Qin, Y.: Neural network prediction and control model
@@ -48,8 +45,8 @@ Hongshu, C.: Analysis and discussion for the current situation of water
   Environmental Science Survey  \textbf{22}(s1),  66--69 (2003)
 
 \bibitem{RN2}
-Huiyong, W., Peng, Y.: Wang huiyong, yan peng. Environmental Protection (4),
-  35--36 (2000)
+Huiyong, W., Peng, Y.: Problems and countermeasures of wastewater reuse in
+  china. Environmental Protection (4),  35--36 (2000)
 
 \bibitem{RN22}
 Jaeger, H., Haas, H.: Harnessing nonlinearity: Predicting chaotic systems and
@@ -78,6 +75,10 @@ Qing, Z., Xuelei, W., Ting, Z.: Prediction of water quality index of honghu
 \bibitem{RN1}
 Shunze, W., Qing, X., Hongliang, L.: Analysis of water pollution in chinese
   watershed. Environmental Science $\&$ Technology (2), ~1--6 (2000)
+
+\bibitem{RN20}
+Sussillo, D., Abbott, L.F.: Generating coherent patterns of activity from
+  chaotic neural networks. Neuron  \textbf{63}(4),  544--557 (2009)
 
 \bibitem{RN15}
 Tiesong, H., Peng, Y., Jin, D.: Applications of artificial neural network to
