@@ -42,7 +42,7 @@ It is an important prerequisite for scientific management and maintenance of wat
 resources to accurately predict all kinds of indices that affect water quality. 
 This paper propose a method of forecasting water quality index and rank based on sparse 
 recurrent neural network (SRNN). The learning algorithm of the network is designed 
-based on the principle of minimum mean square recursion error, and a 
+based on the principle of minimum mean square recursive error.A 
 prediction model for predicting water quality index and rank is 
 constructed by using the neural network.The validity of the model is verified 
 by predicting the water quality parameters and water quality rank
@@ -111,15 +111,15 @@ disadvantage of slow convergence speed. In addition, BP network is
 a typical feedforward structure neural network, but water quality data 
 is often a time series\cite{RN19}. BP network is difficult to simulate the time 
 correlation between water quality data. 
-To this end, this study based on the latest theoretical research results of the prefrontal 
+To this end, this study is based on the latest theoretical research results of the prefrontal 
 cortex in neuroscience\cite{RN20,RN21}, through the construction of a sparse connection 
-large-scale recurrent neural network which used the recursive least mean 
-square error algorithm to quickly learn the patterns between water quality data.
+large-scale recurrent neural network which used the least mean 
+square recursive error algorithm to quickly learn the patterns between water quality data.
 The accuracy of the model is verified by predicting the water quality 
 indices such as ammonia nitrogen (AN), dissolved oxygen (DO), permanganate index (PI), 
 total phosphorus (TP) and total nitrogen (TN) in a reservoir.
 \section{Water quality model}
-This study use a sparse recurrent neural network (SRNN)
+We use a sparse recurrent neural network (SRNN)
 to simulate the temporal correlation between water quality data. 
 SRNN which is unlike common recurrent neural networks contains a 
 large number of neurons. The positive and negative connection 
@@ -169,7 +169,7 @@ few connections between recurrent layer neurons.
 The value of the non-zero element of $w_{ij}^{RNL}$ 
 is randomly selected from the Gaussian distribution $Norm(0,g^{2}/pN)$,
 where $g$ is the intensity coefficient of weight.
-When \underline{$g?1.5$}, the recurrent layer neurons will have the 
+When $g=1.5$, the recurrent layer neurons will have the 
 spontaneous activity of chaotic characteristics\cite{RN17}.
 
 $w^{in}$ represents the connection matrix between the 
@@ -180,7 +180,7 @@ weight of the output neuron feedback back to the recurrent layer neurons.
 It is still a sparse connection.90$\%$ of the weights are set to 0, 
 and other non-zero elements are still randomly selected according 
 to the Gaussian distribution $Norm(0,0.5)$.
-z is the output layer neuron activity, corresponding to 
+$z$ is the output layer neuron activity, corresponding to 
 the predicted output, and its calculation is determined by:
 \begin{equation}
 z=wr
