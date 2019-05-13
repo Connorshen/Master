@@ -57,14 +57,14 @@ of a river in Zhejiang Province.
 %
 
 \section{Introduction}
-Along with the rapid economic development and population growth, 
+Along with the rapid development of economy and population growth, 
 sewage and wastewater generate by the production and living of 
 human are posing a serious threat to the water quality of lakes and 
 rivers\cite{RN1}.There are various problems such as water shortage, water 
 pollution and deterioration of water ecological environment in all 
 parts of China\cite{RN1}, which have become the main bottleneck restricting the 
-sustainable development of economy and society. In order to effectively 
-solve these problems, the rational planning 
+sustainable development of economy and society. In order to solve this problem 
+efficiently, the rational planning 
 of water resources is particularly important\cite{RN2,RN3}. Accurately 
 detecting and reasonably predicting of water quality parameters future trend
 are essential prerequisites for scientific planning of water resources\cite{RN4}. 
@@ -134,7 +134,7 @@ Some theoretical neuroscientists even speculate that SRNN is similar
 to the function of the prefrontal cortex of the brain\cite{RN18}.
 \subsection{SRNN network structure}
 As shown in Figure \ref{Structure of SRNN}, 
-the SRNN contains three parts, an input layer y, a recurrent layer x and an output layer z.
+the SRNN contains three layers, an input layer y, a recurrent layer x and an output layer z.
 Vector y =$\left[y_1,y_2,...,y_m\right]^T$ represents the input layer neuron activity,
  where $y_i$ is the input water quality indices and the superscript T is the transpose.
 
@@ -152,8 +152,8 @@ whose activity is calculated by the formula:
 \tau \frac{d_x}{d_t}=-x+w^{RNL}r+w^{in}y+w^{fb}z,
 \end{equation}
 where $r = \tanh(x)$represents the rate of release 
-of recurrent layer neurons and tanh is a hyperbolic 
-tangent function as well as the activation function of 
+of recurrent layer neurons. $tanh$ is a hyperbolic 
+tangent function as the activation function of 
 recurrent layer neurons. $\tau=0.01$ is the neuron activity
  decay constant.
 
@@ -161,7 +161,7 @@ $w^{RNL}$ represents the recurrent connection matrix between
 neurons in the recurrent layer.
 Since the recurrent layer has $N=1000$ neurons,$w^{RNL}$ is a 
 matrix of $1000\times1000$ size.The element $w_{ij}^{RNL}$
-in the matrix represents the connection weight between 
+in the matrix represents the connection weight among 
 the i-th neuron and the j-th neuron in the recurrent layer.
 The recurrent layer is a sparse connection, and $w_{ij}^{RNL}$
 sets the probability of $p=0.1$ to a non-zero value and the 
@@ -173,7 +173,7 @@ where $g$ is the intensity coefficient of weight.
 When $g=1.5$, the recurrent layer neurons will have the 
 spontaneous activity of chaotic characteristics\cite{RN17}.
 
-$w^{in}$ represents the connection matrix between the 
+$w^{in}$ represents the connection matrix among the 
 input layer and the recurrent layer.
 The weights are randomly selected according to the 
 Gaussian distribution $Norm(0, 0.5)$.$w^{fb}$ is the connection 
