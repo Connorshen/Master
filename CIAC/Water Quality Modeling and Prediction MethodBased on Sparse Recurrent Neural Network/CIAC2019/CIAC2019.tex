@@ -186,8 +186,8 @@ the predicted output, and its calculation is determined by:
 \begin{equation}
 z=wr
 \end{equation}
-where $w$ represents the connection matrix between the recurrent layer 
-and the output layer. The recurrent layer and the output layer are 
+where $w$ represents the connection matrix between the output layer 
+and the recurrent layer. They are 
 fully connected, and the weights are randomly assigned according 
 to a uniform distribution between $\left[-1,1\right]$. 
 $w$ is different from $w^{RNL}$, $w^{in}$, and $w^{fb}$, and
@@ -199,7 +199,7 @@ As can be seen from the structure of SRNN, it is similar to the Echo
 State Network (ESN) \cite{RN22}.
 They all have a recurrent layer and the learning process only adjusts 
 the weight between the recurrent layer and the output layer. However, 
-SRNN and ESN also have the following differences. First of all, 
+SRNN as well as ESN also have the following differences. First of all, 
 the SRNN's recurrent layer connection weight does not need to be 
 specially set, but the ESN needs to have a weight matrix with a 
 spectral radius greater than or equal to 1 in order to achieve reverberation.
