@@ -268,8 +268,8 @@ and $\alpha$ is a constant.
 We select the water data of a reservoir in Zhejiang 
 from May 2012 to May 2015. The data source is the actual value
 which detected by the automatic monitoring station every 4 hours.
-Dissolved oxygen, permanganate index, ammonia nitrogen, total phosphorus
-and total nitrogen, are selected to evaluate the water quality rank. 
+Ammonia nitrogen, permanganate index, dissolved oxygen, 
+total nitrogen and total phosphorus are selected to evaluate the water quality rank. 
 Moreover,only the water data at 4 o'clock in the morning  is selected 
 for reducing the influence of daytime illumination and human activity factors. 
 Considering the possible abnormalities of the water quality 
@@ -284,12 +284,12 @@ it need to be calculated:
 G_i=\frac{\left|X_i- \bar x \right|}{S}   
 \end{equation}
 where $G_i$ is the characteristic data of the Grubbs criterion test.
-$X_i$ is the data to be tested. $\bar x$ is the arithmetic mean of the data set. 
-$S$ is the standard deviation of the data set.If $G_s$ is bigger than $G_p (n)$, 
-it is judged that the data is an abnormal value. 
+The standard deviation of the data set is $S$.
+$X_i$ is the data to be tested.The mean of the data set is $\bar x$. If $G_s$ 
+is bigger than $G_p (n)$, it is judged that the data is an abnormal value. 
 The critical value $G_p (n)$ is determined by the Grubbs table. 
 It is related to the detected rank $\sigma$ = 0.05 
-and the number $n$ of data of the test data set.
+and  $n$ which is the number of data of the testing dataset.
 
 Since the data and the detection range of the water indices are not 
 uniform, the input data need to be normalized. The value of the 
@@ -298,14 +298,14 @@ input data x is mapped between 0.2 and 0.8. The normalization formula is as foll
 y=0.6*\frac{x-min(x)}{max(x)-min(x)}+0.2  
 \end{equation}
 
-The minimum time unit of the data set is day $T$. $T$ is taken form 7 days, 14 days, 
-and 30 days. They respectively generate 3 sets of training and 
-testing data sets. The water quality data from 
-May 1, 2012 to April 30, 2014 are selected as training data. 
+The minimum time unit of the dataset is day $T$ which is taken form 7 days, 14 days, 
+and 30 days. They respectively generate 3 sets of training datasets and 
+testing datasets. The water quality data from 
+May 1, 2012 to April 30, 2014 are selected as training datasets. 
 The water quality data  from May 1, 
-2014 to April 30, 2015 are selected as testing data.
-Ammonia nitrogen, dissolved oxygen, permanganate index, 
-total phosphorus and total nitrogen are selected as the 
+2014 to April 30, 2015 are selected as testing datasets.
+Ammonia nitrogen, permanganate index, dissolved oxygen, 
+total nitrogen and total phosphorus are selected as the 
 measured parameters to verify the effectiveness of SRNN.
 
 \subsection{Water quality parameter prediction}
