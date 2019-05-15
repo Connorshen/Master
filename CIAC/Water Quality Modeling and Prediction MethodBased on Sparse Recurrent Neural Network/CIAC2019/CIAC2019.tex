@@ -478,9 +478,9 @@ The effectiveness of SRNN has been demonstrated by predicting
 different water quality indices and water quality ranks in a river. 
 In the following, we will further explain that SRNN is more suitable 
 for the prediction of water quality indices and ranks with time 
-correlation by comparing with the prediction results of BP neural network. 
-BP neural network model structure is a three-layer structure BP. The number 
-of neurons in the input layer corresponds to the input length of the data. 
+correlation by comparing with the prediction results of BP network. 
+The structure of BP network has three layers.
+The length of the input data is equal to the number of neurons in the input layer.
 The time scale of the input data is converted together into the input of 
 the BP network. The number of hidden layer neurons is taken as 13, 
 and the number of neurons in the output layer is set to 1 or 5 according 
@@ -505,8 +505,8 @@ BP&0.066&0.1082&0.0943&0.0441&0.0662&$51.75\%$\\
 \end{table*}
 
 \section{Discussion}
-In this study, a recurrent neural network with sparse connection features is 
-designed to model the water quality data. The mean square recursive error algorithm 
+We design a recurrent neural network with sparse connection to model 
+the water quality data.The mean square recursive error algorithm 
 is used to train the network to predict various indices of water quality 
 and water quality ranks. The simulation results show that SRNN has better 
 prediction ability. In particular, SRNN has few free parameters. The three 
@@ -515,8 +515,8 @@ according to the distribution to obtain better prediction results.
 This makes SRNN easier to apply to environmentally variable water 
 quality predictions.
 
-SRNN which is similar to Echo State Network (ESN) training only needs 
-to adjust the weight between recurrent layer and output layer. 
+SRNN which is similar to Echo State Network (ESN) only needs 
+to adjust the connection weights between recurrent layer and output layer. 
 This greatly improves the operational efficiency of the recurrent network. 
 Since there is no need to adjust the connection weights between the neurons 
 in the recurrent layer during learning, the recurrent layer of SRNN 
@@ -543,14 +543,13 @@ quickly make the network output close to the target output
 which mainly in the calculation of the matrix $P$. The matrix $P$ 
 is equivalent to the inverse of the correlation matrix in 
 estimating the recurrence rate of the recurrent layer \cite{RN23}. 
-Intuitively, SRNN's algorithm can accurately adjust the weights 
-between the neurons and the output neurons based on the activity 
+Intuitively, SRNN's algorithm can accurately adjust the weights based on the activity 
 of the recurrent layer neurons, so that the output of the 
 output neurons quickly approaches the actual output value. 
 In addition, SRNN has better predictive performance than BP 
 networks commonly used for water quality prediction. Because 
-the BP network is just a feedforward neural network, which 
-cannot model the correlations that may existing in the input data 
+the BP network is a typical feedforward neural network, which 
+cannot model existing correlations in the input data 
 over time. SRNN which is different from BP networks is a recurrent neural 
 network. The existence of the recurrent layer makes it possible 
 to establish the temporal correlation of the input data. 
