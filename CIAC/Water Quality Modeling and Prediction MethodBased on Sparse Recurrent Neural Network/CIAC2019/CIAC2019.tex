@@ -153,7 +153,7 @@ whose activity is calculated by the formula:
 \end{equation}
 where $r = \tanh(x)$represents the rate of release 
 of recurrent layer neurons. $tanh$ is a hyperbolic 
-tangent function as the activation function of 
+tangent function.It's also the activation function of 
 recurrent layer neurons. $\tau=0.01$ is the neuron activity
  decay constant.
 
@@ -161,7 +161,7 @@ $w^{RNL}$ represents the recurrent connection matrix between
 neurons in the recurrent layer.
 Since the recurrent layer has $N=1000$ neurons,$w^{RNL}$ is a 
 matrix of $1000\times1000$ size.The element $w_{ij}^{RNL}$
-in the matrix represents the connection weight among 
+in the matrix represents the connection of 
 the i-th neuron and the j-th neuron in the recurrent layer.
 The recurrent layer is a sparse connection, and $w_{ij}^{RNL}$
 sets the probability of $p=0.1$ to a non-zero value and the 
@@ -216,8 +216,8 @@ online learning mode. These features require a learning algorithm
 that quickly determines how the output weight should be 
 updated so that the network output is equal to the actual output.
 
-The target output expected at time $t$ is $f(t)$. The real 
-output of the network is $w^T (t-\Delta t) r$.The error between them is $e(t)$.
+$f(t)$ is the target output expected at time $t$. $w^T (t-\Delta t) r$ is
+the actual output.The error between them is $e(t)$.
 \begin{equation}
 e(t)= w^T (t -\Delta t)r-f(t)
 \end{equation}
