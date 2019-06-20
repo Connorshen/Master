@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.14)  15 MAY 2019 15:43
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.14)  20 JUN 2019 19:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -47698,10 +47698,10 @@ Underfull \vbox (badness 5105) has occurred while \output is active []
 
  [12] (./CIAC2019.bbl [13]) [14] (./CIAC2019.aux) ) 
 Here is how much of TeX's memory you used:
- 1261 strings out of 492969
- 16834 string characters out of 6133923
+ 1260 strings out of 492969
+ 16828 string characters out of 6133923
  93036 words of memory out of 5000000
- 5251 multiletter control sequences out of 15000+600000
+ 5250 multiletter control sequences out of 15000+600000
  9220 words of font info for 42 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  29i,9n,21p,83089b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
