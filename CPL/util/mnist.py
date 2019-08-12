@@ -7,6 +7,8 @@
 import numpy as np
 from struct import unpack
 from url import DataConfig
+from PIL import Image
+from sklearn.utils import shuffle as do_shuffle
 
 
 def __read_image(path):
@@ -35,7 +37,13 @@ def __one_hot_label(label):
     return lab
 
 
-def load_mnist(train_image_path, train_label_path, test_image_path, test_label_path, normalize=True, one_hot=True):
+def load_mnist(train_image_path,
+               train_label_path,
+               test_image_path,
+               test_label_path,
+               normalize=True,
+               one_hot=True,
+               shuffle=True):
     image = {
         'train': __read_image(train_image_path),
         'test': __read_image(test_image_path)
@@ -53,14 +61,28 @@ def load_mnist(train_image_path, train_label_path, test_image_path, test_label_p
     if one_hot:
         for key in ('train', 'test'):
             label[key] = __one_hot_label(label[key])
+    if shuffle:
+        image['train'], label['train'] = do_shuffle(image['train'], label['train'])
+        image['test'], label['test'] = do_shuffle(image['train'], label['train'])
 
     return image['train'], label['train'], image['test'], label['test']
+
+
+def show_image(image_arr):
+    """
+
+    :param image_arr: shape = [784]
+    :return:
+    """
+    image = image_arr.reshape(28, 28) * 255
+    image = Image.fromarray(image)
+    image.show()
 
 
 if __name__ == '__main__':
     train_image, train_label, test_image, test_label = load_mnist(DataConfig.TRAIN_IMAGE_PATH,
                                                                   DataConfig.TRAIN_LABEL_PATH,
                                                                   DataConfig.TEST_IMAGE_PATH,
-                                                                  DataConfig.TEST_LABEL_PATH,
-                                                                  normalize=True,
-                                                                  one_hot=True)
+                                                                  DataConfig.TEST_LABEL_PATH)
+    show_image(train_image[0])
+    print(train_label[0])
